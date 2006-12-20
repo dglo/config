@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<simulation>
-<activeDOMs>
-<simDOM>
-<mbid>123456789abc</mbid>
-<card>0</card>
-<pair>1</pair>
-<dom>B</dom>
-<string>1001</string>
-<position>1</position>
-<noiseRate>10</noiseRate>
-</simDOM>
-<simDOM>
-<mbid>43218765cba9</mbid>
-<card>0</card>
-<pair>1</pair>
-<dom>A</dom>
-<string>1001</string>
-<position>2</position>
-<noiseRate>20</noiseRate>
-</simDOM>
-</activeDOMs>
-</simulation>
+<domConfigList configId="1000001">
+    
+    <domConfig mbid="123456789abc" name="NicholsonBaker">
+        <simulation>
+            <noiseRate>25.0</noiseRate>
+        </simulation>
+    </domConfig>
+    
+    <domConfig mbid="43218765cba9" name="StanislawLem">
+        <simulation>
+            <noiseRate>15.0</noiseRate>
+        </simulation>
+    </domConfig>
+    
+</domConfigList>
