@@ -64,7 +64,7 @@ EOF
     }
 }
 
-print "</domConfigList configId=\"1000003\">\n";
+print "</domConfigList>\n";
 
 __END__
 
