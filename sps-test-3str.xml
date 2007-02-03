@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run config for SPTS64 testing with real DOMs. -->
+<runConfig>
+    <domConfigList>sps-21-29-38-lc-1-001</domConfigList>
+    <triggerConfig>mbt100-smt20-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
