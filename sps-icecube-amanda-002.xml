@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Run config for SPS - InIce / IceTop and AMANDA arrays.
+Created 2007-02-17 22:58 UTC K. Hanson
+-->
+<runConfig>
+    <domConfigList>sps-21i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-29i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-30i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-38i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-39i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-40i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-46i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-47i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-48i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-49i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-50i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-56i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-57i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-58i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-59i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-65i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-66i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-67i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-72i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-73i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-74i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-78i-lcspan-1-003</domConfigList>
+    <domConfigList>sps-icetop-hlc-001</domConfigList>
+    <domConfigList>sps-amanda-001</domConfigList>
+    <triggerConfig>sps-icecube-amanda-002</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="amandaTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

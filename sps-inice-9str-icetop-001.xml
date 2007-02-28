@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Run config for SPTS64 testing with real DOMs. 
+This is an early version that is still missing
+some unplugged quads on the PY06 deployed strings.
+-->
+<runConfig>
+    <domConfigList>sps-21i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-29i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-30i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-38i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-39i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-40i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-49i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-50i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-59i-lcspan-1-002</domConfigList>
+    <domConfigList>sps-icetop-hlc-001</domConfigList>
+    <triggerConfig>inice-icetop-mbt-smt-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
