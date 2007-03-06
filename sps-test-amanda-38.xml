@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run config for SPTS64 testing with real DOMs. -->
+<runConfig>
+    <domConfigList>sps-38-lcspan-1-001</domConfigList>
+    <domConfigList>sps-amanda-001</domConfigList>
+    <triggerConfig>amanda-test-trigger</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+    <runComponent name="amandaTrigger"/>
+</runConfig>

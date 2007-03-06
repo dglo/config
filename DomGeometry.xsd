@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="domGeometry" type="DomGeometryType"/>
+
+    <xs:complexType name="DomGeometryType">
+        <xs:sequence>
+            <xs:element name="string" type="StringType" minOccurs="1" maxOccurs="80"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="StringType">
+        <xs:sequence>
+            <xs:element name="number" type="xs:nonNegativeInteger"/>
+            <xs:element name="dom" type="DomType" minOccurs="1" maxOccurs="64"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DomType">
+        <xs:sequence>
+            <xs:element name="position" type="xs:nonNegativeInteger"/>
+            <xs:element name="mainBoardId" type="xs:string"/>
+            <xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="productionId" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="xCoordinate" type="xs:float" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="yCoordinate" type="xs:float" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="zCoordinate" type="xs:float" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

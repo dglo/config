@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run config for SPTS64 testing with real DOMs. -->
+<runConfig>
+    <domConfigList>sps-21-lcspan-1-001</domConfigList>
+    <domConfigList>sps-29-lcspan-1-001</domConfigList>
+    <domConfigList>sps-30-lcspan-1-001</domConfigList>
+    <domConfigList>sps-38-lcspan-1-001</domConfigList>
+    <domConfigList>sps-39-lcspan-1-001</domConfigList>
+    <domConfigList>sps-40-lcspan-1-001</domConfigList>
+    <domConfigList>sps-49-lcspan-1-001</domConfigList>
+    <domConfigList>sps-50-lcspan-1-001</domConfigList>
+    <domConfigList>sps-59-lcspan-1-001</domConfigList>
+    <triggerConfig>mbt1000-smt100-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
