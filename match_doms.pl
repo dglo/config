@@ -2,7 +2,7 @@
 
 # parse_nicknames.pl
 # John Jacobsen, NPX Designs, Inc., jacobsen\@npxdesigns.com
-# Started: Sun Jan 28 11:32:10 2007
+# Started: Sun Jan 28 11:32:10 2007 TEST
 # Insert DOMs with known positions from nicknames.txt into default-dom-geometry.xml
 
 package MY_PACKAGE;
