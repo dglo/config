@@ -27,12 +27,16 @@ This is a lowgain run with 5E6 tube gain and LC span=2
     <domConfigList>sps-74i-lc2-slc-010</domConfigList>
     <domConfigList>sps-78i-lc2-slc-010</domConfigList>
     <domConfigList>sps-icetop-hlc-slc-010</domConfigList>
-    <!-- <domConfigList>sps-amanda-005</domConfigList> -->
-    <triggerConfig>sps-stringtrigger-test/triggerConfig>
+<!--
+     <domConfigList>sps-amanda-005</domConfigList>
+-->  
+    <triggerConfig>sps-stringtrigger-test</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="iceTopTrigger"/>
     <runComponent name="globalTrigger"/>
-    <!-- <runComponent name="amandaTrigger"/> -->
+<!--
+    <runComponent name="amandaTrigger"/>
+-->
     <runComponent name="eventBuilder"/>
     <runComponent name="secondaryBuilders"/>
 </runConfig>
