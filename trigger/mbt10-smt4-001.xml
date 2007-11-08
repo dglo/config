@@ -1,41 +1,41 @@
 <?xml version="1.0"?>
-<activeTriggers>
-    <triggerConfig>
+<activeTriggers configurationId="99999999">
+    <triggerConfig triggerId="99999990">
         <triggerType>3</triggerType>
         <triggerConfigId>-1</triggerConfigId>
         <sourceId>6000</sourceId>
         <triggerName>ThroughputTrigger</triggerName>
     </triggerConfig>
-    <triggerConfig>
+    <triggerConfig triggerId="99999992">
         <triggerType>2</triggerType>
         <triggerConfigId>0</triggerConfigId>
         <sourceId>4000</sourceId>
         <triggerName>MinBiasTrigger</triggerName>
-        <parameterConfig>
+        <parameterConfig paramId="99999991">
             <parameterName>prescale</parameterName>
             <parameterValue>10</parameterValue>
         </parameterConfig>
-        <readoutConfig>
+        <readoutConfig readoutId="99999991">
             <readoutType>0</readoutType>
             <timeOffset>0</timeOffset>
             <timeMinus>25000</timeMinus>
             <timePlus>25000</timePlus>
         </readoutConfig>
     </triggerConfig>
-    <triggerConfig>
+    <triggerConfig triggerId="99999993">
         <triggerType>0</triggerType>
         <triggerConfigId>0</triggerConfigId>
         <sourceId>4000</sourceId>
         <triggerName>SimpleMajorityTrigger</triggerName>
-        <parameterConfig>
+        <parameterConfig paramId="99999992">
             <parameterName>threshold</parameterName>
             <parameterValue>4</parameterValue>
         </parameterConfig>
-        <parameterConfig>
+        <parameterConfig paramId="99999993">
             <parameterName>timeWindow</parameterName>
             <parameterValue>1000</parameterValue>
         </parameterConfig>        
-        <readoutConfig>
+        <readoutConfig readoutId="99999992">
             <readoutType>0</readoutType>
             <timeOffset>0</timeOffset>
             <timeMinus>10000</timeMinus>
