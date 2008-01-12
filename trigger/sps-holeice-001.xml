@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activeTriggers configurationId="12">
+    <!-- GLOBAL TRIGGER -->
+    <triggerConfig triggerId="8">
+        <triggerType>3</triggerType>
+        <triggerConfigId>-1</triggerConfigId>
+        <sourceId>6000</sourceId>
+        <triggerName>ThroughputTrigger</triggerName>
+    </triggerConfig>
+
+    <!-- INICETRIGGER - MinBias -->
+    <triggerConfig triggerId="103">
+        <triggerType>2</triggerType>
+        <triggerConfigId>101</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MinBiasTrigger</triggerName>
+        <parameterConfig paramId="101">
+            <parameterName>prescale</parameterName>
+            <parameterValue>1000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="101">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>25000</timeMinus>
+            <timePlus>25000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+    <!-- INICETRIGGER - SimpleMajority -->
+    <triggerConfig triggerId="104">
+        <triggerType>0</triggerType>
+        <triggerConfigId>103</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="2">
+            <parameterName>threshold</parameterName>
+            <parameterValue>8</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <!-- INICETRIGGER - PhysicsMinBias -->
+    <triggerConfig triggerId="111">
+        <triggerType>13</triggerType>
+        <triggerConfigId>105</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>PhysicsMinBiasTrigger</triggerName>
+        <parameterConfig paramId="102">
+            <parameterName>deadtime</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="103">
+            <parameterName>prescale</parameterName>
+            <parameterValue>100</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+</activeTriggers>
