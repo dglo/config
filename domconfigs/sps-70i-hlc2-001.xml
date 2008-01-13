@@ -1519,6 +1519,55 @@
     </supernovaMode>
     <scalerDeadtime>51200</scalerDeadtime>
   </domConfig>
+  <domConfig mbid="f41ea5a471ff" name="Comix">
+    <format>
+      <deltaCompressed/>
+    </format>
+    <triggerMode>spe</triggerMode>
+    <atwd0TriggerBias>850</atwd0TriggerBias>
+    <atwd0RampRate>350</atwd0RampRate>
+    <atwd0RampTop>2300</atwd0RampTop>
+    <atwdAnalogRef>2250</atwdAnalogRef>
+    <atwd1TriggerBias>850</atwd1TriggerBias>
+    <atwd1RampRate>350</atwd1RampRate>
+    <atwd1RampTop>2300</atwd1RampTop>
+    <frontEndPedestal>2130</frontEndPedestal>
+    <mpeTriggerDiscriminator>609</mpeTriggerDiscriminator>
+    <speTriggerDiscriminator>553</speTriggerDiscriminator>
+    <fastAdcRef>800</fastAdcRef>
+    <internalPulser>0</internalPulser>
+    <ledBrightness>1023</ledBrightness>
+    <frontEndAmpLowerClamp>0</frontEndAmpLowerClamp>
+    <flasherRef>450</flasherRef>
+    <muxBias>1000</muxBias>
+    <pmtHighVoltage>2347</pmtHighVoltage>
+    <analogMux>off</analogMux>
+    <pulserMode>beacon</pulserMode>
+    <pulserRate>1</pulserRate>
+    <pedestalSubtract>true</pedestalSubtract>
+    <localCoincidence>
+      <type>hard</type>
+      <mode>up-or-down</mode>
+      <txMode>both</txMode>
+      <source>spe</source>
+      <span>2</span>
+      <preTrigger>1000</preTrigger>
+      <postTrigger>1000</postTrigger>
+      <cableLength dir="up" dist="1">725</cableLength>
+      <cableLength dir="down" dist="1">550</cableLength>
+      <cableLength dir="up" dist="2">1325</cableLength>
+      <cableLength dir="down" dist="2">1325</cableLength>
+      <cableLength dir="up" dist="3">2125</cableLength>
+      <cableLength dir="down" dist="3">1950</cableLength>
+      <cableLength dir="up" dist="4">2725</cableLength>
+      <cableLength dir="down" dist="4">2725</cableLength>
+    </localCoincidence>
+    <supernovaMode enable="true">
+      <deadtime>250000</deadtime>
+      <disc>spe</disc>
+    </supernovaMode>
+    <scalerDeadtime>51200</scalerDeadtime>
+  </domConfig>
   <domConfig mbid="8dba3f663a4b" name="Cuttlefish">
     <format>
       <deltaCompressed/>
@@ -1590,6 +1639,55 @@
     <flasherRef>450</flasherRef>
     <muxBias>1000</muxBias>
     <pmtHighVoltage>2297</pmtHighVoltage>
+    <analogMux>off</analogMux>
+    <pulserMode>beacon</pulserMode>
+    <pulserRate>1</pulserRate>
+    <pedestalSubtract>true</pedestalSubtract>
+    <localCoincidence>
+      <type>hard</type>
+      <mode>up-or-down</mode>
+      <txMode>both</txMode>
+      <source>spe</source>
+      <span>2</span>
+      <preTrigger>1000</preTrigger>
+      <postTrigger>1000</postTrigger>
+      <cableLength dir="up" dist="1">725</cableLength>
+      <cableLength dir="down" dist="1">550</cableLength>
+      <cableLength dir="up" dist="2">1325</cableLength>
+      <cableLength dir="down" dist="2">1325</cableLength>
+      <cableLength dir="up" dist="3">2125</cableLength>
+      <cableLength dir="down" dist="3">1950</cableLength>
+      <cableLength dir="up" dist="4">2725</cableLength>
+      <cableLength dir="down" dist="4">2725</cableLength>
+    </localCoincidence>
+    <supernovaMode enable="true">
+      <deadtime>250000</deadtime>
+      <disc>spe</disc>
+    </supernovaMode>
+    <scalerDeadtime>51200</scalerDeadtime>
+  </domConfig>
+  <domConfig mbid="f9a4eed216de" name="Lexovii">
+    <format>
+      <deltaCompressed/>
+    </format>
+    <triggerMode>spe</triggerMode>
+    <atwd0TriggerBias>850</atwd0TriggerBias>
+    <atwd0RampRate>350</atwd0RampRate>
+    <atwd0RampTop>2300</atwd0RampTop>
+    <atwdAnalogRef>2250</atwdAnalogRef>
+    <atwd1TriggerBias>850</atwd1TriggerBias>
+    <atwd1RampRate>350</atwd1RampRate>
+    <atwd1RampTop>2300</atwd1RampTop>
+    <frontEndPedestal>2130</frontEndPedestal>
+    <mpeTriggerDiscriminator>613</mpeTriggerDiscriminator>
+    <speTriggerDiscriminator>558</speTriggerDiscriminator>
+    <fastAdcRef>800</fastAdcRef>
+    <internalPulser>0</internalPulser>
+    <ledBrightness>1023</ledBrightness>
+    <frontEndAmpLowerClamp>0</frontEndAmpLowerClamp>
+    <flasherRef>450</flasherRef>
+    <muxBias>1000</muxBias>
+    <pmtHighVoltage>2510</pmtHighVoltage>
     <analogMux>off</analogMux>
     <pulserMode>beacon</pulserMode>
     <pulserRate>1</pulserRate>
@@ -2374,6 +2472,55 @@
     <flasherRef>450</flasherRef>
     <muxBias>1000</muxBias>
     <pmtHighVoltage>2362</pmtHighVoltage>
+    <analogMux>off</analogMux>
+    <pulserMode>beacon</pulserMode>
+    <pulserRate>1</pulserRate>
+    <pedestalSubtract>true</pedestalSubtract>
+    <localCoincidence>
+      <type>hard</type>
+      <mode>up-or-down</mode>
+      <txMode>both</txMode>
+      <source>spe</source>
+      <span>2</span>
+      <preTrigger>1000</preTrigger>
+      <postTrigger>1000</postTrigger>
+      <cableLength dir="up" dist="1">725</cableLength>
+      <cableLength dir="down" dist="1">550</cableLength>
+      <cableLength dir="up" dist="2">1325</cableLength>
+      <cableLength dir="down" dist="2">1325</cableLength>
+      <cableLength dir="up" dist="3">2125</cableLength>
+      <cableLength dir="down" dist="3">1950</cableLength>
+      <cableLength dir="up" dist="4">2725</cableLength>
+      <cableLength dir="down" dist="4">2725</cableLength>
+    </localCoincidence>
+    <supernovaMode enable="true">
+      <deadtime>250000</deadtime>
+      <disc>spe</disc>
+    </supernovaMode>
+    <scalerDeadtime>51200</scalerDeadtime>
+  </domConfig>
+  <domConfig mbid="fde5d7fc9cbd" name="Kid_Sampson">
+    <format>
+      <deltaCompressed/>
+    </format>
+    <triggerMode>spe</triggerMode>
+    <atwd0TriggerBias>850</atwd0TriggerBias>
+    <atwd0RampRate>350</atwd0RampRate>
+    <atwd0RampTop>2300</atwd0RampTop>
+    <atwdAnalogRef>2250</atwdAnalogRef>
+    <atwd1TriggerBias>850</atwd1TriggerBias>
+    <atwd1RampRate>350</atwd1RampRate>
+    <atwd1RampTop>2300</atwd1RampTop>
+    <frontEndPedestal>2130</frontEndPedestal>
+    <mpeTriggerDiscriminator>613</mpeTriggerDiscriminator>
+    <speTriggerDiscriminator>558</speTriggerDiscriminator>
+    <fastAdcRef>800</fastAdcRef>
+    <internalPulser>0</internalPulser>
+    <ledBrightness>1023</ledBrightness>
+    <frontEndAmpLowerClamp>0</frontEndAmpLowerClamp>
+    <flasherRef>450</flasherRef>
+    <muxBias>1000</muxBias>
+    <pmtHighVoltage>2582</pmtHighVoltage>
     <analogMux>off</analogMux>
     <pulserMode>beacon</pulserMode>
     <pulserRate>1</pulserRate>
