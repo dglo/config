@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+SLC test run w parallel DAQ
+Created 2008-01-11 K. Hanson
+-->
+<runConfig>
+    <domConfigList>sps-55i-slc2-001</domConfigList>
+    <domConfigList>sps-63i-slc2-001</domConfigList>
+    <domConfigList>sps-64i-slc2-001</domConfigList>
+    <domConfigList>sps-70i-slc2-001</domConfigList>
+    <domConfigList>sps-71i-slc2-001</domConfigList>
+    <triggerConfig>sps-holeice-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
