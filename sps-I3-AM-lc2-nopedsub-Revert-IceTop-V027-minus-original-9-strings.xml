@@ -29,12 +29,12 @@ has the PhysicsMinBias trigger.
     <domConfigList>sps-74i-lc2-slc-010</domConfigList>
     <domConfigList>sps-78i-lc2-slc-010</domConfigList>
     <domConfigList>sps-icetop-hlc-slc-027</domConfigList>
-    <!-- <domConfigList>sps-amanda-005</domConfigList> -->
+    <domConfigList>sps-amanda-005</domConfigList>
     <triggerConfig>sps-icecube-amanda-008</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="iceTopTrigger"/>
     <runComponent name="globalTrigger"/>
-    <!-- <runComponent name="amandaTrigger"/> -->
+    <runComponent name="amandaTrigger"/>
     <runComponent name="eventBuilder"/>
     <runComponent name="secondaryBuilders"/>
 </runConfig>
