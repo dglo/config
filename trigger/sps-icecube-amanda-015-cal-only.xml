@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    This is the IC40 trigger configuration for flashers
+    We have: 
+        (1) In-Ice Calibration trigger
+        (2) PhysicsMinBias trigger
+    - Readout windows have been set to +/- 10 us for all triggers.
+-->
+
+<activeTriggers configurationId="12">
+    <triggerConfig triggerId="8">
+        <triggerType>3</triggerType>
+        <triggerConfigId>-1</triggerConfigId>
+        <sourceId>6000</sourceId>
+        <triggerName>ThroughputTrigger</triggerName>
+    </triggerConfig>
+    <triggerConfig triggerId="112">
+        <triggerType>1</triggerType>
+        <triggerConfigId>0</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>CalibrationTrigger</triggerName>
+        <parameterConfig paramId="112">
+            <parameterName>hitType</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    <triggerConfig triggerId="111">
+        <triggerType>13</triggerType>
+        <triggerConfigId>105</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>PhysicsMinBiasTrigger</triggerName>
+        <parameterConfig paramId="102">
+            <parameterName>deadtime</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="103">
+            <parameterName>prescale</parameterName>
+            <parameterValue>200</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+</activeTriggers>
