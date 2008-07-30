@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <domConfigList>
-  <domConfig>
+  <domConfig mbid="44c16f980468" name="Toyota_Celica">
+<!-- dom domId='44c16f980468' name='Toyota_Celica' domhub='sps-ichub67' card='0' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -48,22 +49,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="c65d57f9ef16" name="Ix_Chel">
+<!-- dom domId='c65d57f9ef16' name='Ix_Chel' domhub='sps-ichub67' card='0' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -111,22 +113,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="8261714f65d8" name="Elf">
+<!-- dom domId='8261714f65d8' name='Elf' domhub='sps-ichub67' card='0' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -174,22 +177,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="066b7ebe2c26" name="Aniak_River">
+<!-- dom domId='066b7ebe2c26' name='Aniak_River' domhub='sps-ichub67' card='0' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -237,22 +241,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="7f5ce8a749f0" name="Utukok_River">
+<!-- dom domId='7f5ce8a749f0' name='Utukok_River' domhub='sps-ichub67' card='0' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -300,22 +305,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="7c983777b078" name="Madison">
+<!-- dom domId='7c983777b078' name='Madison' domhub='sps-ichub67' card='0' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -363,22 +369,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="42a5ed72a3ef" name="Boggeyman">
+<!-- dom domId='42a5ed72a3ef' name='Boggeyman' domhub='sps-ichub67' card='0' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -426,22 +433,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="af90a0a41ade" name="Sacramento">
+<!-- dom domId='af90a0a41ade' name='Sacramento' domhub='sps-ichub67' card='0' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -489,22 +497,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="03ecb484abe8" name="Chandalar_River">
+<!-- dom domId='03ecb484abe8' name='Chandalar_River' domhub='sps-ichub67' card='1' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -552,22 +561,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="a29598735544" name="Pierre">
+<!-- dom domId='a29598735544' name='Pierre' domhub='sps-ichub67' card='1' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -615,22 +625,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="9b54b20558bd" name="Glaciology">
+<!-- dom domId='9b54b20558bd' name='Glaciology' domhub='sps-ichub67' card='1' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -678,22 +689,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="d307af164254" name="Papaphobia">
+<!-- dom domId='d307af164254' name='Papaphobia' domhub='sps-ichub67' card='1' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -741,22 +753,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="e46756e7b9b0" name="California">
+<!-- dom domId='e46756e7b9b0' name='California' domhub='sps-ichub67' card='1' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -804,22 +817,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="06614a6ffcd4" name="Pronghorn">
+<!-- dom domId='06614a6ffcd4' name='Pronghorn' domhub='sps-ichub67' card='1' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -867,22 +881,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="8a3dc4b3c68e" name="South_Carolina">
+<!-- dom domId='8a3dc4b3c68e' name='South_Carolina' domhub='sps-ichub67' card='1' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -930,22 +945,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="1713d9af3072" name="Serow">
+<!-- dom domId='1713d9af3072' name='Serow' domhub='sps-ichub67' card='1' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -993,22 +1009,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="d897bae245bb" name="Ethology">
+<!-- dom domId='d897bae245bb' name='Ethology' domhub='sps-ichub67' card='2' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1056,22 +1073,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="90302720fdf2" name="Theology">
+<!-- dom domId='90302720fdf2' name='Theology' domhub='sps-ichub67' card='2' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1119,22 +1137,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="729a1180042d" name="Cinnamaldehyde">
+<!-- dom domId='729a1180042d' name='Cinnamaldehyde' domhub='sps-ichub67' card='2' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1182,22 +1201,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="10e327bccef2" name="Providence">
+<!-- dom domId='10e327bccef2' name='Providence' domhub='sps-ichub67' card='2' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1245,22 +1265,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="862c6d0172c6" name="Chakachatna_River">
+<!-- dom domId='862c6d0172c6' name='Chakachatna_River' domhub='sps-ichub67' card='2' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1308,22 +1329,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="03da59feece2" name="Rupophobia">
+<!-- dom domId='03da59feece2' name='Rupophobia' domhub='sps-ichub67' card='2' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1371,22 +1393,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="523be04a283b" name="Stony_River">
+<!-- dom domId='523be04a283b' name='Stony_River' domhub='sps-ichub67' card='2' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1434,22 +1457,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="091be8177ab9" name="Harrisburg">
+<!-- dom domId='091be8177ab9' name='Harrisburg' domhub='sps-ichub67' card='2' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1497,22 +1521,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="2129000445ac" name="Acrophobia">
+<!-- dom domId='2129000445ac' name='Acrophobia' domhub='sps-ichub67' card='3' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1560,22 +1585,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="d51568afe402" name="Wiccaphobia">
+<!-- dom domId='d51568afe402' name='Wiccaphobia' domhub='sps-ichub67' card='3' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1623,22 +1649,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="53fd9cf5ee98" name="Decidophobia">
+<!-- dom domId='53fd9cf5ee98' name='Decidophobia' domhub='sps-ichub67' card='3' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1686,22 +1713,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="00cc7121317b" name="Seismology">
+<!-- dom domId='00cc7121317b' name='Seismology' domhub='sps-ichub67' card='3' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1749,22 +1777,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="35daf4dd3653" name="EDAG_Scoutish">
+<!-- dom domId='35daf4dd3653' name='EDAG_Scoutish' domhub='sps-ichub67' card='3' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1812,22 +1841,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="6e3f8b69462a" name="Crosley_Curtis">
+<!-- dom domId='6e3f8b69462a' name='Crosley_Curtis' domhub='sps-ichub67' card='3' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1875,22 +1905,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="1248d1f7b12b" name="Nash_Special_6">
+<!-- dom domId='1248d1f7b12b' name='Nash_Special_6' domhub='sps-ichub67' card='3' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -1938,22 +1969,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="6b2595d39948" name="Springfuhl">
+<!-- dom domId='6b2595d39948' name='Springfuhl' domhub='sps-ichub67' card='3' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2001,22 +2033,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="07dfecb0394d" name="Hudson_Hornet">
+<!-- dom domId='07dfecb0394d' name='Hudson_Hornet' domhub='sps-ichub67' card='4' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2064,22 +2097,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="236be57e9c5a" name="Wuhletal">
+<!-- dom domId='236be57e9c5a' name='Wuhletal' domhub='sps-ichub67' card='4' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2127,22 +2161,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="ded59285c47d" name="Coleen_River">
+<!-- dom domId='ded59285c47d' name='Coleen_River' domhub='sps-ichub67' card='4' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2190,22 +2225,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="9f05fd6341a1" name="Buckland_River">
+<!-- dom domId='9f05fd6341a1' name='Buckland_River' domhub='sps-ichub67' card='4' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2253,22 +2289,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="3a4bc102e538" name="Ethnology">
+<!-- dom domId='3a4bc102e538' name='Ethnology' domhub='sps-ichub67' card='4' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2316,22 +2353,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="3150e8f8e6b4" name="Ukoyish">
+<!-- dom domId='3150e8f8e6b4' name='Ukoyish' domhub='sps-ichub67' card='4' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2379,22 +2417,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="d667d8e59b37" name="Hispanophilia">
+<!-- dom domId='d667d8e59b37' name='Hispanophilia' domhub='sps-ichub67' card='4' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2442,22 +2481,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="0daa3dfe9ae3" name="Microphobia">
+<!-- dom domId='0daa3dfe9ae3' name='Microphobia' domhub='sps-ichub67' card='4' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2505,22 +2545,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="6c62cee79e41" name="Barat">
+<!-- dom domId='6c62cee79e41' name='Barat' domhub='sps-ichub67' card='5' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2568,22 +2609,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="6e5557701717" name="Technophilia">
+<!-- dom domId='6e5557701717' name='Technophilia' domhub='sps-ichub67' card='5' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2631,22 +2673,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="0be7ec07c986" name="Endicott_River">
+<!-- dom domId='0be7ec07c986' name='Endicott_River' domhub='sps-ichub67' card='5' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2694,22 +2737,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="3ec9d05fddda" name="Trasgu">
+<!-- dom domId='3ec9d05fddda' name='Trasgu' domhub='sps-ichub67' card='5' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2757,22 +2801,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="2869b3f98c1f" name="Goat">
+<!-- dom domId='2869b3f98c1f' name='Goat' domhub='sps-ichub67' card='5' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2820,22 +2865,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="0aa34ece576e" name="Skwentna_River">
+<!-- dom domId='0aa34ece576e' name='Skwentna_River' domhub='sps-ichub67' card='5' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2883,22 +2929,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="3f028cb686b7" name="Copper_River">
+<!-- dom domId='3f028cb686b7' name='Copper_River' domhub='sps-ichub67' card='5' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -2946,22 +2993,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="f16f3e478eed" name="Bitburger">
+<!-- dom domId='f16f3e478eed' name='Bitburger' domhub='sps-ichub67' card='5' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3009,22 +3057,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="ada28eff60fd" name="Gulkana_River">
+<!-- dom domId='ada28eff60fd' name='Gulkana_River' domhub='sps-ichub67' card='6' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3072,22 +3121,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="e44c73438cb0" name="Hogatza_River">
+<!-- dom domId='e44c73438cb0' name='Hogatza_River' domhub='sps-ichub67' card='6' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3135,22 +3185,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="e03a51aba1fd" name="Iditarod_River">
+<!-- dom domId='e03a51aba1fd' name='Iditarod_River' domhub='sps-ichub67' card='6' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3198,22 +3249,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="d68886f0d068" name="Connecticut">
+<!-- dom domId='d68886f0d068' name='Connecticut' domhub='sps-ichub67' card='6' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3261,22 +3313,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="595b005178af" name="Maryland">
+<!-- dom domId='595b005178af' name='Maryland' domhub='sps-ichub67' card='6' pair='2' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3324,22 +3377,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="c0985b8a00de" name="Gakona_River">
+<!-- dom domId='c0985b8a00de' name='Gakona_River' domhub='sps-ichub67' card='6' pair='2' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3387,22 +3441,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="eda1865c31be" name="Liticaphobia">
+<!-- dom domId='eda1865c31be' name='Liticaphobia' domhub='sps-ichub67' card='6' pair='3' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3450,22 +3505,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="ae7f8ac920bc" name="White_River">
+<!-- dom domId='ae7f8ac920bc' name='White_River' domhub='sps-ichub67' card='6' pair='3' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3513,22 +3569,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="215610a77199" name="Indiana">
+<!-- dom domId='215610a77199' name='Indiana' domhub='sps-ichub67' card='7' pair='0' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3576,22 +3633,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="dd507ae67614" name="Sagavanirktok_River">
+<!-- dom domId='dd507ae67614' name='Sagavanirktok_River' domhub='sps-ichub67' card='7' pair='0' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3639,22 +3697,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="0ec9ae11b381" name="Pinot_grigio">
+<!-- dom domId='0ec9ae11b381' name='Pinot_grigio' domhub='sps-ichub67' card='7' pair='1' ab='B' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3702,22 +3761,23 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  550 </cableLength>
-      <cableLength>  725 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  550 </cableLength>
+      <cableLength dir="up" dist="1">  725 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 1950 </cableLength>
+      <cableLength dir="up" dist="3"> 2125 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
     <scalerDeadtime>      51200 </scalerDeadtime>
   </domConfig>
-  <domConfig>
+  <domConfig mbid="e02e36073f39" name="Anvik_River">
+<!-- dom domId='e02e36073f39' name='Anvik_River' domhub='sps-ichub67' card='7' pair='1' ab='A' -->
     <format>
       <engineeringFormat>
         <fadcSamples>0</fadcSamples>
@@ -3765,16 +3825,16 @@
       <span>                   2 </span>
       <preTrigger>          1000 </preTrigger>
       <postTrigger>         1000 </postTrigger>
-      <cableLength>  725 </cableLength>
-      <cableLength>  550 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 1325 </cableLength>
-      <cableLength> 2125 </cableLength>
-      <cableLength> 1950 </cableLength>
-      <cableLength> 2725 </cableLength>
-      <cableLength> 2725 </cableLength>
+      <cableLength dir="down" dist="1">  725 </cableLength>
+      <cableLength dir="up" dist="1">  550 </cableLength>
+      <cableLength dir="down" dist="2"> 1325 </cableLength>
+      <cableLength dir="up" dist="2"> 1325 </cableLength>
+      <cableLength dir="down" dist="3"> 2125 </cableLength>
+      <cableLength dir="up" dist="3"> 1950 </cableLength>
+      <cableLength dir="down" dist="4"> 2725 </cableLength>
+      <cableLength dir="up" dist="4"> 2725 </cableLength>
     </localCoincidence>
-    <supernovaMode>
+    <supernovaMode enabled="true">
       <deadtime>       250000 </deadtime>
       <disc>              spe </disc>
     </supernovaMode>
