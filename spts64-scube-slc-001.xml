@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SCUBE test run config
+    K. Hanson (2008/10/10)
+-->
+<runConfig>
+    <domConfigList>spts64-scube09-slc-001</domConfigList>
+    <triggerConfig>mbt100-smt4-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
