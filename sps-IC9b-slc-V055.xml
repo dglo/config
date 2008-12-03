@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Run config for SPS - InIce / IceTop 
+  * No AMANDA
+  * In-Ice is in SLC mode
+-->
+<runConfig>
+    <domConfigList>sps-21i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-29i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-30i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-38i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-39i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-40i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-48i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-49i-lc2-slc-pedsub-044</domConfigList>
+    <domConfigList>sps-50i-lc2-slc-pedsub-044</domConfigList>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
