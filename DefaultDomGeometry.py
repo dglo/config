@@ -225,7 +225,7 @@ class DefaultDomGeometry(object):
         if strNum in [21, 29]: return 84
         if strNum in [45, 54, 62, 63, 69, 70, 75, 76]: return 85
         if strNum in [44, 52, 53, 60, 61, 68]: return 86
-        raise ProcessError('Bad in-ice string %d' % strNum)
+        raise ProcessError('Could not find icetop hub for string %d' % strNum)
     getIcetopNum = classmethod(getIcetopNum)
 
     def getStringToDomDict(self):
@@ -251,7 +251,14 @@ class DefaultDomGeometry(object):
                         (baseNum > 80 and dom.pos > 60):
                     pass
                 else:
-                    it = DefaultDomGeometry.getIcetopNum(s)
+                    try:
+                        it = DefaultDomGeometry.getIcetopNum(s)
+                    except ProcessError:
+                        print >>sys.stderr, \
+                            "Dropping %d-%d: Unknown icetop hub" % \
+                            (s, dom.pos)
+                        self.deleteDom(s, dom)
+                        it = s
 
                     if it != s:
                         self.deleteDom(s, dom)
