@@ -11,7 +11,7 @@ def doconfig(string):
 
     configtxt = """<?xml version="1.0" encoding="UTF-8"?>
 <runConfig>
-    <domConfigList>sps-%si-lc2-slc-002</domConfigList>
+    <domConfigList>sps-%si-lc2-pedsub-055</domConfigList>
     <triggerConfig>sps-icecube-amanda-008</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>
