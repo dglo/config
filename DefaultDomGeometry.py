@@ -28,29 +28,36 @@ class Dom(object):
 
         self.desc = None
 
+        self.origOrder = None
+
     def __cmp__(self, other):
+        if self.origOrder is None:
+            if other.origOrder is not None:
+                return -1
+        elif other.origOrder is None:
+            return 1
+        elif self.origOrder != other.origOrder:
+            return self.origOrder - other.origOrder
+
         if self.string is None:
-            if other.string is None:
-                return 0
-            return -1
+            if other.string is not None:
+                return -1
         elif other.string is None:
             return 1
         elif self.string != other.string:
             return self.string - other.string
 
         if self.prevString is None:
-            if other.prevString is None:
-                return 0
-            return -1
+            if other.prevString is not None:
+                return -1
         elif other.prevString is None:
             return 1
         elif self.prevString != other.prevString:
             return self.prevString - other.prevString
 
         if self.pos is None:
-            if other.pos is None:
-                return 0
-            return -1
+            if other.pos is not None:
+                return -1
         elif other.pos is None:
             return 1
         elif self.pos != other.pos:
@@ -102,6 +109,7 @@ class Dom(object):
 
     def setId(self, id): self.id = id
     def setName(self, name): self.name = name
+    def setOriginalOrder(self, num): self.origOrder = num
     def setPos(self, pos): self.pos = pos
     def setProdId(self, prod): self.prod = prod
 
@@ -155,11 +163,14 @@ class DefaultDomGeometry(object):
         print '<?xml version="1.0"?>'
         print '<domGeometry>'
         for s in strList:
+            domList = self.__stringToDom[s]
+            if len(domList) == 0:
+                continue
+
             print '   <string>'
             print '      <number>%02d</number>' % s
-            domList = self.__stringToDom[s]
-            domList.sort()
 
+            domList.sort()
             for dom in domList:
                 print '     <dom>'
                 if dom.pos is not None:
@@ -174,11 +185,23 @@ class DefaultDomGeometry(object):
                 if dom.prod is not None:
                     print '        <productionId>%s</productionId>' % dom.prod
                 if dom.x is not None:
-                    print '        <xCoordinate>%4.2f</xCoordinate>' % dom.x
+                    if dom.x == 0.0:
+                        xStr = "0.0"
+                    else:
+                        xStr = "%4.2f" % dom.x
+                    print '        <xCoordinate>%s</xCoordinate>' % xStr
                 if dom.y is not None:
-                    print '        <yCoordinate>%4.2f</yCoordinate>' % dom.y
+                    if dom.y == 0.0:
+                        yStr = "0.0"
+                    else:
+                        yStr = "%4.2f" % dom.y
+                    print '        <yCoordinate>%s</yCoordinate>' % yStr
                 if dom.z is not None:
-                    print '        <zCoordinate>%4.2f</zCoordinate>' % dom.z
+                    if dom.z == 0.0:
+                        zStr = "0.0"
+                    else:
+                        zStr = "%4.2f" % dom.z
+                    print '        <zCoordinate>%s</zCoordinate>' % zStr
                 print '     </dom>'
 
             print '   </string>'
@@ -216,15 +239,16 @@ class DefaultDomGeometry(object):
         
     def getIcetopNum(cls, strNum):
         "Translate the in-ice string number to the corresponding icetop hub"
-        if strNum % 1000 == 0 or strNum > 2000: return strNum
-        if strNum > 1000: return ((((strNum - 1000) + 7)) / 8) + 1080
+        if strNum % 1000 == 0 or strNum >= 2000: return strNum
+        if strNum > 1000: return ((((strNum % 100) + 7)) / 8) + 1200
         # SPS map goes here
-        if strNum in [46, 55, 56, 65, 72, 73, 77, 78]: return 81
-        if strNum in [38, 39, 48, 58, 64, 66, 71, 74]: return 82
-        if strNum in [30, 40, 47, 49, 50, 57, 59, 67]: return 83
-        if strNum in [21, 29]: return 84
-        if strNum in [45, 54, 62, 63, 69, 70, 75, 76]: return 85
-        if strNum in [44, 52, 53, 60, 61, 68]: return 86
+        if strNum in [46, 55, 56, 65, 72, 73, 77, 78]: return 201
+        if strNum in [38, 39, 48, 58, 64, 66, 71, 74]: return 202
+        if strNum in [30, 40, 47, 49, 50, 57, 59, 67]: return 203
+        #if strNum in [21, 29]: return 204
+        if strNum in [21, 29]: return 206
+        if strNum in [45, 54, 62, 63, 69, 70, 75, 76]: return 205
+        if strNum in [44, 52, 53, 60, 61, 68]: return 206
         raise ProcessError('Could not find icetop hub for string %d' % strNum)
     getIcetopNum = classmethod(getIcetopNum)
 
@@ -232,7 +256,14 @@ class DefaultDomGeometry(object):
         "Get the string number -> DOM object dictionary"
         return self.__stringToDom
 
-    def rewrite(self):
+    def mergeMissing(self, oldDomGeom):
+        keys = self.__stringToDom.keys()
+
+        for s in oldDomGeom.__stringToDom:
+            if not s in keys:
+                self.__stringToDom[s] = oldDomGeom.__stringToDom[s]
+
+    def rewrite(self, rewriteOldIcetop=True):
         """
         Rewrite default-dom-geometry from 64 DOMs per string hub to
         60 DOMs per string hub and 32 DOMs per icetop hub
@@ -248,21 +279,29 @@ class DefaultDomGeometry(object):
             while idx < len(domList):
                 dom = domList[idx]
                 if (baseNum <= 80 and dom.pos <= 60) or \
-                        (baseNum > 80 and dom.pos > 60):
+                        (baseNum > 200 and dom.pos > 60) or \
+                        (not rewriteOldIcetop and baseNum > 80 and \
+                             dom.pos > 60):
                     pass
                 else:
-                    try:
-                        it = DefaultDomGeometry.getIcetopNum(s)
-                    except ProcessError:
-                        print >>sys.stderr, \
-                            "Dropping %d-%d: Unknown icetop hub" % \
-                            (s, dom.pos)
-                        self.deleteDom(s, dom)
-                        it = s
+                    if dom.pos <= 60:
+                        it = baseNum
+                    elif rewriteOldIcetop and baseNum > 80 and baseNum < 200:
+                        it = baseNum % 10 + 200
+                    else:
+                        try:
+                            it = DefaultDomGeometry.getIcetopNum(s)
+                        except ProcessError:
+                            print >>sys.stderr, \
+                                "Dropping %d-%d: Unknown icetop hub" % \
+                                (s, dom.pos)
+                            self.deleteDom(s, dom)
+                            it = s
 
-                    if it != s:
+                    if it != baseNum:
                         self.deleteDom(s, dom)
 
+                        it = (s / 1000) * 1000 + (it % 1000)
                         dom.setString(it)
 
                         self.addString(it, errorOnMulti=False)
@@ -414,6 +453,8 @@ class DefaultDomGeometryReader(XMLParser):
                                node.nodeName)
 
         stringNum = None
+        origOrder = 0
+
         for kid in node.childNodes:
             if kid.nodeType == Node.TEXT_NODE:
                 continue
@@ -425,11 +466,16 @@ class DefaultDomGeometryReader(XMLParser):
                 if kid.nodeName == 'number':
                     stringNum = int(self.getChildText(kid))
                     ddg.addString(stringNum)
+                    origOrder = 0
                 elif kid.nodeName == 'dom':
                     if stringNum is None:
                         raise ProcessError('Found <dom> before <number>' +
                                            ' under <string>')
-                    ddg.addDom(stringNum, self.__parseDom(stringNum, kid))
+                    dom = self.__parseDom(stringNum, kid)
+                    dom.setOriginalOrder(origOrder)
+                    origOrder += 1
+
+                    ddg.addDom(stringNum, dom)
                 else:
                     raise ProcessError('Unexpected %s child <%s>' %
                                        (node.nodeName, kid.nodeName))
