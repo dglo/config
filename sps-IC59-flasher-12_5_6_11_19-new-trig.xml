@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Run config for SPS - InIce triggers
+flasher run config
+-->
+<runConfig>
+    <domConfigList>sps-12i-lc2-pedsub-055</domConfigList>
+    <domConfigList>sps-05i-lc2-pedsub-055</domConfigList>
+    <domConfigList>sps-06i-lc2-pedsub-055</domConfigList>
+    <domConfigList>sps-11i-lc2-pedsub-055</domConfigList>
+    <domConfigList>sps-19i-lc2-pedsub-055</domConfigList>
+    <triggerConfig>sps-icecube-018-cal</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
