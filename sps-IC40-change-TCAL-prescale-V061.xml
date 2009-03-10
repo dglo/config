@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Run config for SPS - InIce / IceTop and AMANDA h/w + s/w triggers
-This run is 1.0E+07 gain nominal for in-ice PMTs.  The change from
-V012 is migration to the sps-icecube-amanda-008 trigger file which
-has the PhysicsMinBias trigger.
+Run config for IC40 - InIce / IceTop and AMANDA h/w + s/w triggers.
+This has the TCAL stream pre-scaled by 10:1
 -->
 <runConfig>
     <domConfigList>sps-21i-lc2-pedsub-042</domConfigList>
@@ -59,8 +57,9 @@ has the PhysicsMinBias trigger.
     <runComponent name="globalTrigger"/>
     <runComponent name="amandaTrigger"/>
     <runComponent name="eventBuilder"/>
-    <runComponent name="secondaryBuilders"/>
-       <stream name="tcal">
-           <prescale>10</prescale>
-       </stream>
+    <runComponent name="secondaryBuilders">
+        <stream name="tcal">
+            <prescale>10</prescale>
+        </stream>
+    </runComponent>
 </runConfig>
