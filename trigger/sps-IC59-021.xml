@@ -10,10 +10,11 @@
        (1) DomSet==All (anything seen by the iniceTrigger)
            - PhysicsMinBiasTrigger
 	   - MultiplicityStringTrigger (10 strings)
-
-       (2) DomSet==InIce (all doms on strings 1-80)
            - SimpleMajorityTrigger
 	   - ClusterTrigger
+
+       (2) DomSet==InIce (all doms on strings 1-80)
+           None for now (KDH changed from PT end of March 2009)
 
        (3) DomSet==DeepCore (bottom 22 doms on 26,27,36,37,45,46
                              bottom 50 doms on 81-86)
@@ -409,10 +410,6 @@
         <parameterConfig paramId="6">
             <parameterName>timeWindow</parameterName>
             <parameterValue>5000</parameterValue>
-        </parameterConfig>
-        <parameterConfig paramId="116006">
-            <parameterName>domSet</parameterName>
-            <parameterValue>2</parameterValue>
         </parameterConfig>
         <readoutConfig readoutId="102">
             <readoutType>0</readoutType>
