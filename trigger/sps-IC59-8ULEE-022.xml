@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    This is the IC59 baseline trigger configuration.
+
+    GlobalTrigger:
+       - ThroughputTrigger
+
+    InIceTrigger:
+       (1) DomSet==All (anything seen by the iniceTrigger)
+           - PhysicsMinBiasTrigger
+	   - MultiplicityStringTrigger (10 strings)
+           - SimpleMajorityTrigger
+	   - ClusterTrigger
+
+       (2) DomSet==InIce (all doms on strings 1-80)
+           None for now (KDH changed from PT end of March 2009)
+
+       (3) DomSet==DeepCore (bottom 22 doms on 26,27,36,37,45,46
+                             bottom 50 doms on 81-86)
+           - SimpleMajorityTrigger
+
+    IceTopTrigger:
+       - SimpleMajorityTrigger
+       - CalibrationTrigger
+       - MinBiasTrigger
+-->
+
+<activeTriggers configurationId="100">
+
+<!--
+    GlobalTrigger
+-->
+
+    <triggerConfig triggerId="8">
+        <triggerType>3</triggerType>
+        <triggerConfigId>-1</triggerConfigId>
+        <sourceId>6000</sourceId>
+        <triggerName>ThroughputTrigger</triggerName>
+    </triggerConfig>
+
+<!--
+    InIce: DomSet==All
+-->
+
+    <triggerConfig triggerId="111">
+        <triggerType>13</triggerType>
+        <triggerConfigId>105</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>PhysicsMinBiasTrigger</triggerName>
+        <parameterConfig paramId="102">
+            <parameterName>deadtime</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="103">
+            <parameterName>prescale</parameterName>
+            <parameterValue>200</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="122">
+        <triggerType>17</triggerType>
+        <triggerConfigId>117</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="118">
+            <parameterName>string</parameterName>
+            <parameterValue>57</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+    <triggerConfig triggerId="123">
+        <triggerType>17</triggerType>
+        <triggerConfigId>118</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="118">
+            <parameterName>string</parameterName>
+            <parameterValue>62</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+        
+    <triggerConfig triggerId="2000">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1000</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116000">
+            <parameterName>string</parameterName>
+            <parameterValue>19</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2001">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1001</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116001">
+            <parameterName>string</parameterName>
+            <parameterValue>28</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2002">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1002</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116002">
+            <parameterName>string</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2003">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1003</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116003">
+            <parameterName>string</parameterName>
+            <parameterValue>47</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2004">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1004</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116004">
+            <parameterName>string</parameterName>
+            <parameterValue>48</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2005">
+        <triggerType>17</triggerType>
+        <triggerConfigId>1005</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>MultiplicityStringTrigger</triggerName>
+        <parameterConfig paramId="114">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116">
+            <parameterName>numberOfVetoTopDoms</parameterName>
+            <parameterValue>38</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="117">
+            <parameterName>maxLength</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116005">
+            <parameterName>string</parameterName>
+            <parameterValue>56</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+<!--
+    InIce: DomSet==InIce
+-->
+
+    <triggerConfig triggerId="2006">
+        <triggerType>0</triggerType>
+        <triggerConfigId>1006</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="2">
+            <parameterName>threshold</parameterName>
+            <parameterValue>8</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+    <triggerConfig triggerId="2007">
+        <triggerType>14</triggerType>
+        <triggerConfigId>1007</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>ClusterTrigger</triggerName>
+        <parameterConfig paramId="115001">
+            <parameterName>multiplicity</parameterName>
+            <parameterValue>5</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="115002">
+            <parameterName>coherenceLength</parameterName>
+            <parameterValue>7</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="115003">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116007">
+            <parameterName>domSet</parameterName>
+            <parameterValue>2</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+<!--
+    InIce: DomSet==DeepCore
+-->
+
+    <triggerConfig triggerId="2008">
+        <triggerType>0</triggerType>
+        <triggerConfigId>1008</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="116008">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116009">
+            <parameterName>domSet</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+<!--
+    IceTop
+-->
+
+    <triggerConfig triggerId="102">
+        <triggerType>0</triggerType>
+        <triggerConfigId>102</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="5">
+            <parameterName>threshold</parameterName>
+            <parameterValue>6</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2009">
+        <triggerType>1</triggerType>
+        <triggerConfigId>1009</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>CalibrationTrigger</triggerName>
+        <parameterConfig paramId="119">
+            <parameterName>hitType</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="103">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>1000</timeMinus>
+            <timePlus>1000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+    <triggerConfig triggerId="101">
+        <triggerType>2</triggerType>
+        <triggerConfigId>101</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>MinBiasTrigger</triggerName>
+        <parameterConfig paramId="101">
+            <parameterName>prescale</parameterName>
+            <parameterValue>10000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+    
+</activeTriggers>
