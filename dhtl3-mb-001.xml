@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- domhub-test-lab3.lbl.gov test config -->
+<runConfig>
+    <domConfigList>domhub-test-lab3</domConfigList>
+    <triggerConfig>in-ice-mbt-5</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+    <stringHub hubId="3001">
+      <sender>
+        <forwardIsolatedHitsToTrigger>true</forwardIsolatedHitsToTrigger>
+      </sender>
+    </stringHub>
+</runConfig>
