@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The "dirty dozen" are the 12 DOMs on SPTS64 hubs 21 and 29.
+    This is a mixed mode file with a simple MBT / SMT trigger
+    set to produce a moderate amount of events.
+    K. Hanson (2007/12/10)
+-->
+<runConfig>
+    <domConfigList>spts64-ichub21-eng-006</domConfigList>
+    <domConfigList>spts64-ichub29-hlc-006</domConfigList>
+    <triggerConfig>spts64-test-002</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
