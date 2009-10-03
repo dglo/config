@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Run config for SPS - InIce only.
+        - Designed for flashing even DOMs on
+          string 63 at high rates and low
+          intensity.  
+        - Use calibration trigger only.
+        - Readout on strings 62, 70, 71 has
+          even number DOMs in short engineering 
+          mode, others HLC.
+        - Readout on string 63 (flasher string)
+          has HLC.
+        - No LC requirements for any readout.
+-->
+<runConfig>
+    <domConfigList>sps-62i-even-003</domConfigList>
+    <domConfigList>sps-63i-hlc-002</domConfigList>
+    <domConfigList>sps-70i-even-003</domConfigList>
+    <domConfigList>sps-71i-even-003</domConfigList>
+    <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <!--<runComponent name="iceTopTrigger"/>-->
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
