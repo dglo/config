@@ -24,6 +24,11 @@
         <pulserMode>            beacon </pulserMode>
         <pulserRate>                 5 </pulserRate>
         <pedestalSubtract>        true </pedestalSubtract>
+        <chargeStamp type="atwd" channel="auto"/>
+        <chargeHistogram>
+            <interval>10</interval>
+            <prescale>500</prescale>
+        </chargeHistogram>
         <localCoincidence>
             <type>       soft </type>
             <mode>       down </mode>
