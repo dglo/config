@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    24 string EMERGENCY config which activates
+    the NorthEAST portion of IC59.
+    RACKS 8+9+10 should be active
+    Simple triggers.
+-->
+<runConfig>
+    <domConfigList>sps-30i-slc-096</domConfigList>
+    <domConfigList>sps-38i-slc-096</domConfigList>
+    <domConfigList>sps-39i-slc-097</domConfigList>
+    <domConfigList>sps-40i-slc-096</domConfigList>
+    <domConfigList>sps-46i-slc-096</domConfigList>
+    <domConfigList>sps-47i-slc-096</domConfigList>
+    <domConfigList>sps-48i-slc-096</domConfigList>
+    <domConfigList>sps-49i-slc-096</domConfigList>
+    <domConfigList>sps-50i-slc-096</domConfigList>
+    <domConfigList>sps-55i-slc-096</domConfigList>
+    <domConfigList>sps-56i-slc-096</domConfigList>
+    <domConfigList>sps-57i-slc-096</domConfigList>
+    <domConfigList>sps-58i-slc-096</domConfigList>
+    <domConfigList>sps-59i-slc-096</domConfigList>
+    <domConfigList>sps-64i-slc-096</domConfigList>
+    <domConfigList>sps-65i-slc-096</domConfigList>
+    <domConfigList>sps-66i-slc-096</domConfigList>
+    <domConfigList>sps-67i-slc-096</domConfigList>
+    <domConfigList>sps-71i-slc-096</domConfigList>
+    <domConfigList>sps-72i-slc-097</domConfigList>
+    <domConfigList>sps-73i-slc-096</domConfigList>
+    <domConfigList>sps-74i-slc-096</domConfigList>
+    <domConfigList>sps-77i-slc-096</domConfigList>
+    <domConfigList>sps-78i-slc-096</domConfigList>
+    <triggerConfig>sps-EMERGENCY-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This is the SE EMERGENCY configuration + IceTop :
+        - RACKS 5, 6, and 7 are intact (20 strings)
+        - IceTop is intact
+    It is called "SE" because it activates the
+    Southeast portion of the full IceCube detector.
+    There is no IceTop in this config.
+-->
+<runConfig>
+    <domConfigList>sps-02i-slc-096</domConfigList>
+    <domConfigList>sps-03i-slc-096</domConfigList>
+    <domConfigList>sps-04i-slc-096</domConfigList>
+    <domConfigList>sps-05i-slc-096</domConfigList>
+    <domConfigList>sps-06i-slc-104</domConfigList>
+    <domConfigList>sps-10i-slc-096</domConfigList>
+    <domConfigList>sps-11i-slc-103</domConfigList>
+    <domConfigList>sps-12i-slc-096</domConfigList>
+    <domConfigList>sps-13i-slc-096</domConfigList>
+    <domConfigList>sps-17i-slc-096</domConfigList>
+    <domConfigList>sps-18i-slc-096</domConfigList>
+    <domConfigList>sps-19i-slc-096</domConfigList>
+    <domConfigList>sps-20i-slc-096</domConfigList>
+    <domConfigList>sps-21i-slc-096</domConfigList>
+    <domConfigList>sps-26i-slc-096</domConfigList>
+    <domConfigList>sps-27i-slc-096</domConfigList>
+    <domConfigList>sps-28i-slc-096</domConfigList>
+    <domConfigList>sps-29i-slc-096</domConfigList>
+    <domConfigList>sps-36i-slc-096</domConfigList>
+    <domConfigList>sps-37i-slc-096</domConfigList>
+    <triggerConfig>sps-EMERGENCY-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
