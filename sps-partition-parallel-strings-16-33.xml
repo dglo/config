@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Run config for SPS - parallel partition for strings 16 and 33
+-->
+<runConfig>
+    <domConfigList>sps-33i-slc-120-lc2-pedsub-055.xml</domConfigList>
+    <domConfigList>sps-16i-slc-120-lc2-pedsub-055.xml</domConfigList>
+    <triggerConfig>sps-no-ulee-037</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
