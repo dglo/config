@@ -22,4 +22,28 @@
             <timePlus>25000</timePlus>
         </readoutConfig>
     </triggerConfig>
+    <triggerConfig>
+        <triggerType>20</triggerType>
+        <triggerConfigId>0</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>VolumeTrigger</triggerName>
+        <parameterConfig>
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1000</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>multiplicity</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>coherenceLength</parameterName>
+            <parameterValue>5</parameterValue>
+        </parameterConfig>
+        <readoutConfig>
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>25000</timeMinus>
+            <timePlus>25000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
 </activeTriggers>
