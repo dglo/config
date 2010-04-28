@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Run config for SPS - parallel partition for strings 16 and 33
+Run config for SPS - parallel partition for strings 43 and 51
 -->
 <runConfig>
-    <domConfigList>sps-43i-slc-120-lc2-pedsub-055.xml</domConfigList>
-    <domConfigList>sps-51i-slc-120-lc2-pedsub-055.xml</domConfigList>
+    <domConfigList>sps-43i-slc-120</domConfigList>
+    <domConfigList>sps-51i-slc-120</domConfigList>
     <triggerConfig>sps-IC59-030</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>
