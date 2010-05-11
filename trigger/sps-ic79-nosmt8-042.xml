@@ -76,36 +76,7 @@
         </readoutConfig>
     </triggerConfig>
 
-<!--
-    InIce: DomSet==InIce
--->
-
-    <triggerConfig triggerId="2006">
-        <triggerType>0</triggerType>
-        <triggerConfigId>1006</triggerConfigId>
-        <sourceId>4000</sourceId>
-        <triggerName>SimpleMajorityTrigger</triggerName>
-        <parameterConfig paramId="2">
-            <parameterName>threshold</parameterName>
-            <parameterValue>8</parameterValue>
-        </parameterConfig>
-        <parameterConfig paramId="6">
-            <parameterName>timeWindow</parameterName>
-            <parameterValue>5000</parameterValue>
-        </parameterConfig>
-        <readoutConfig readoutId="801">
-            <readoutType>1</readoutType>
-            <timeOffset>0</timeOffset>
-            <timeMinus>10000</timeMinus>
-            <timePlus>10000</timePlus>
-        </readoutConfig>
-        <readoutConfig readoutId="803">
-            <readoutType>2</readoutType>
-            <timeOffset>0</timeOffset>
-            <timeMinus>4000</timeMinus>
-            <timePlus>6000</timePlus>
-        </readoutConfig>
-    </triggerConfig>
+<!-- InIce: DomSet==InIce -->
     
     <triggerConfig triggerId="2007">
         <triggerType>14</triggerType>
@@ -163,6 +134,10 @@
             <parameterName>domSet</parameterName>
             <parameterValue>2</parameterValue>
         </parameterConfig>
+        <parameterConfig paramId="101108">
+            <parameterName>prescale</parameterName>
+            <parameterValue>1</parameterValue>
+        </parameterConfig>   
         <readoutConfig readoutId="801">
             <readoutType>1</readoutType>
             <timeOffset>0</timeOffset>
