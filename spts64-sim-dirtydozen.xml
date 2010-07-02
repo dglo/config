@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Simulate the "dirty dozen" DOMs on SPTS64 hubs 21 and 29.
--->
 <runConfig>
-    <domConfigList>spts64-sim-dozen-domlist</domConfigList>
+    <domConfigList>spts64-21c-sim-dozen-domlist</domConfigList>
+    <domConfigList>spts64-29c-sim-dozen-domlist</domConfigList>
     <triggerConfig>IniceGlobalTest</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

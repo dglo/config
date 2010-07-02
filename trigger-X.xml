@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <runConfig>
-  <domConfigList>SPS-1str-sim-domlist</domConfigList>
-  <triggerConfig>trigger-X-002</triggerConfig>
-  <stringHub hubId="1001">
-    <trigger>
-      <enabled>false</enabled>
-    </trigger>
-  </stringHub>
-  <runComponent name="inIceTrigger"/>
-  <runComponent name="globalTrigger"/>
-  <runComponent name="eventBuilder"/>
-  <runComponent name="secondaryBuilders"/>
+    <domConfigList>spts64-01c-10str</domConfigList>
+    <domConfigList>spts64-01t-1str</domConfigList>
+    <triggerConfig>trigger-X-002</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
 </runConfig>
