@@ -52,12 +52,10 @@ has the PhysicsMinBias trigger.
     <domConfigList>sps-04t-lc2-pedsub-043</domConfigList>
     <domConfigList>sps-05t-lc2-pedsub-043</domConfigList>
     <domConfigList>sps-06t-lc2-pedsub-043</domConfigList>
-<!--    <domConfigList>sps-amanda-005</domConfigList> -->
     <triggerConfig>sps-icecube-amanda-cal-018</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="iceTopTrigger"/>
     <runComponent name="globalTrigger"/>
-<!--    <runComponent name="amandaTrigger"/> -->
     <runComponent name="eventBuilder"/>
     <runComponent name="secondaryBuilders"/>
 </runConfig>
