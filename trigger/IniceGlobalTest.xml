@@ -6,6 +6,7 @@
         <sourceId>6000</sourceId>
         <triggerName>ThroughputTrigger</triggerName>
     </triggerConfig>
+
     <triggerConfig>
         <triggerType>2</triggerType>
         <triggerConfigId>0</triggerConfigId>
@@ -22,6 +23,7 @@
             <timePlus>25000</timePlus>
         </readoutConfig>
     </triggerConfig>
+
     <triggerConfig>
         <triggerType>20</triggerType>
         <triggerConfigId>0</triggerConfigId>
@@ -46,4 +48,22 @@
             <timePlus>25000</timePlus>
         </readoutConfig>
     </triggerConfig>
+
+    <triggerConfig>
+        <triggerType>2</triggerType>
+        <triggerConfigId>0</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>MinBiasTrigger</triggerName>
+        <parameterConfig>
+            <parameterName>prescale</parameterName>
+            <parameterValue>10</parameterValue>
+        </parameterConfig>
+        <readoutConfig>
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>25000</timeMinus>
+            <timePlus>25000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
 </activeTriggers>
