@@ -4,7 +4,7 @@ Run config for SPS - InIce triggers
 flasher run config
 -->
 <runConfig>
-    <domConfigList>sps-20i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="20">sps-20i-lc2-pedsub-055</domConfigList>
     <triggerConfig>sps-icecube-019-cal-only</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

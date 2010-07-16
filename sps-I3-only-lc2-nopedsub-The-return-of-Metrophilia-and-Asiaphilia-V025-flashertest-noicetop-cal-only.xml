@@ -6,13 +6,13 @@ V012 is migration to the sps-icecube-amanda-008 trigger file which
 has the PhysicsMinBias trigger.
 -->
 <runConfig>
-    <domConfigList>sps-57i-lc2-slc-015-flasherdelay</domConfigList>
-    <domConfigList>sps-58i-lc2-slc-010-flasherdelay</domConfigList>
-    <domConfigList>sps-65i-lc2-slc-010-flasherdelay</domConfigList>
-    <domConfigList>sps-66i-lc2-slc-024-flasherdelay</domConfigList>
-    <domConfigList>sps-67i-lc2-slc-010-flasherdelay</domConfigList>
-    <domConfigList>sps-73i-lc2-slc-010-flasherdelay</domConfigList>
-    <domConfigList>sps-74i-lc2-slc-010-flasherdelay</domConfigList>
+    <domConfigList hub="57">sps-57i-lc2-slc-015-flasherdelay</domConfigList>
+    <domConfigList hub="58">sps-58i-lc2-slc-010-flasherdelay</domConfigList>
+    <domConfigList hub="65">sps-65i-lc2-slc-010-flasherdelay</domConfigList>
+    <domConfigList hub="66">sps-66i-lc2-slc-024-flasherdelay</domConfigList>
+    <domConfigList hub="67">sps-67i-lc2-slc-010-flasherdelay</domConfigList>
+    <domConfigList hub="73">sps-73i-lc2-slc-010-flasherdelay</domConfigList>
+    <domConfigList hub="74">sps-74i-lc2-slc-010-flasherdelay</domConfigList>
     <triggerConfig>sps-icecube-amanda-008-cal-only</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

@@ -13,10 +13,10 @@
         - No LC requirements for any readout.
 -->
 <runConfig>
-    <domConfigList>sps-62i-even-002</domConfigList>
-    <domConfigList>sps-63i-nolc-002</domConfigList>
-    <domConfigList>sps-70i-even-002</domConfigList>
-    <domConfigList>sps-71i-even-002</domConfigList>
+    <domConfigList hub="62">sps-62i-even-002</domConfigList>
+    <domConfigList hub="63">sps-63i-nolc-002</domConfigList>
+    <domConfigList hub="70">sps-70i-even-002</domConfigList>
+    <domConfigList hub="71">sps-71i-even-002</domConfigList>
     <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

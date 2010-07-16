@@ -6,13 +6,13 @@ V012 is migration to the sps-icecube-amanda-008 trigger file which
 has the PhysicsMinBias trigger.
 -->
 <runConfig>
-    <domConfigList>sps-29i-lc2-spe-eng-044</domConfigList>
-    <domConfigList>sps-30i-lc2-spe-eng-044</domConfigList>
-    <domConfigList>sps-38i-lc2-spe-eng-044</domConfigList>
-    <domConfigList>sps-39i-lc2-pedsub-042</domConfigList>
-    <domConfigList>sps-40i-lc2-spe-eng-044</domConfigList>
-    <domConfigList>sps-48i-lc2-spe-eng-044</domConfigList>
-    <domConfigList>sps-49i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="29">sps-29i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="30">sps-30i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="38">sps-38i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="39">sps-39i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="40">sps-40i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="48">sps-48i-lc2-spe-eng-044</domConfigList>
+    <domConfigList hub="49">sps-49i-lc2-spe-eng-044</domConfigList>
     <triggerConfig>sps-icecube-amanda-cal-018</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

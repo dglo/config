@@ -4,13 +4,13 @@ Run config for SPS - InIce triggers
 flasher run config
 -->
 <runConfig>
-    <domConfigList>sps-02i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-03i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-04i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-05i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-10i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-11i-lc2-pedsub-055</domConfigList>
-    <domConfigList>sps-18i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="2">sps-02i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="3">sps-03i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="4">sps-04i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="5">sps-05i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="10">sps-10i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="11">sps-11i-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="18">sps-18i-lc2-pedsub-055</domConfigList>
     <triggerConfig>sps-icecube-018-cal</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

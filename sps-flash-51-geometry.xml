@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <runConfig>
-    <domConfigList>sps-41i-slc-120</domConfigList>
-    <domConfigList>sps-42i-slc-120</domConfigList>
-    <domConfigList>sps-51i-slc-120</domConfigList>
-    <domConfigList>sps-52i-slc-096</domConfigList>
-    <domConfigList>sps-60i-slc-102</domConfigList>
+    <domConfigList hub="41">sps-41i-slc-120</domConfigList>
+    <domConfigList hub="42">sps-42i-slc-120</domConfigList>
+    <domConfigList hub="51">sps-51i-slc-120</domConfigList>
+    <domConfigList hub="52">sps-52i-slc-096</domConfigList>
+    <domConfigList hub="60">sps-60i-slc-102</domConfigList>
     <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>

@@ -6,38 +6,38 @@
         - TCAL stream prescale set to 10:1.
 -->
 <runConfig>
-    <domConfigList>sps-02i-slc-096</domConfigList>
-    <domConfigList>sps-03i-slc-096</domConfigList>
-    <domConfigList>sps-04i-slc-096</domConfigList>
-    <domConfigList>sps-05i-slc-096</domConfigList>
-    <domConfigList>sps-06i-slc-096</domConfigList>
-    <domConfigList>sps-10i-slc-096</domConfigList>
-    <domConfigList>sps-11i-slc-096</domConfigList>
-    <domConfigList>sps-12i-slc-096</domConfigList>
-    <domConfigList>sps-13i-slc-096</domConfigList>
-    <domConfigList>sps-17i-slc-096</domConfigList>
-    <domConfigList>sps-18i-slc-096</domConfigList>
-    <domConfigList>sps-19i-slc-096</domConfigList>
-    <domConfigList>sps-20i-slc-096</domConfigList>
-    <domConfigList>sps-21i-slc-096</domConfigList>
-    <domConfigList>sps-26i-slc-096</domConfigList>
-    <domConfigList>sps-27i-slc-096</domConfigList>
-    <domConfigList>sps-28i-slc-096</domConfigList>
-    <domConfigList>sps-29i-slc-096</domConfigList>
-    <domConfigList>sps-30i-slc-096</domConfigList>
-    <domConfigList>sps-36i-slc-096</domConfigList>
-    <domConfigList>sps-37i-slc-096</domConfigList>
-    <domConfigList>sps-38i-slc-096</domConfigList>
-    <domConfigList>sps-39i-slc-097</domConfigList>
-    <domConfigList>sps-40i-slc-096</domConfigList>
-    <domConfigList>sps-01t-slc-094</domConfigList>
-    <domConfigList>sps-02t-slc-094</domConfigList>
-    <domConfigList>sps-03t-slc-096</domConfigList>
-    <domConfigList>sps-04t-slc-094</domConfigList>
-    <domConfigList>sps-05t-slc-094</domConfigList>
-    <domConfigList>sps-06t-slc-094</domConfigList>
-    <domConfigList>sps-07t-slc-098</domConfigList>
-    <domConfigList>sps-08t-slc-094</domConfigList>
+    <domConfigList hub="2">sps-02i-slc-096</domConfigList>
+    <domConfigList hub="3">sps-03i-slc-096</domConfigList>
+    <domConfigList hub="4">sps-04i-slc-096</domConfigList>
+    <domConfigList hub="5">sps-05i-slc-096</domConfigList>
+    <domConfigList hub="6">sps-06i-slc-096</domConfigList>
+    <domConfigList hub="10">sps-10i-slc-096</domConfigList>
+    <domConfigList hub="11">sps-11i-slc-096</domConfigList>
+    <domConfigList hub="12">sps-12i-slc-096</domConfigList>
+    <domConfigList hub="13">sps-13i-slc-096</domConfigList>
+    <domConfigList hub="17">sps-17i-slc-096</domConfigList>
+    <domConfigList hub="18">sps-18i-slc-096</domConfigList>
+    <domConfigList hub="19">sps-19i-slc-096</domConfigList>
+    <domConfigList hub="20">sps-20i-slc-096</domConfigList>
+    <domConfigList hub="21">sps-21i-slc-096</domConfigList>
+    <domConfigList hub="26">sps-26i-slc-096</domConfigList>
+    <domConfigList hub="27">sps-27i-slc-096</domConfigList>
+    <domConfigList hub="28">sps-28i-slc-096</domConfigList>
+    <domConfigList hub="29">sps-29i-slc-096</domConfigList>
+    <domConfigList hub="30">sps-30i-slc-096</domConfigList>
+    <domConfigList hub="36">sps-36i-slc-096</domConfigList>
+    <domConfigList hub="37">sps-37i-slc-096</domConfigList>
+    <domConfigList hub="38">sps-38i-slc-096</domConfigList>
+    <domConfigList hub="39">sps-39i-slc-097</domConfigList>
+    <domConfigList hub="40">sps-40i-slc-096</domConfigList>
+    <domConfigList hub="201">sps-01t-slc-094</domConfigList>
+    <domConfigList hub="202">sps-02t-slc-094</domConfigList>
+    <domConfigList hub="203">sps-03t-slc-096</domConfigList>
+    <domConfigList hub="204">sps-04t-slc-094</domConfigList>
+    <domConfigList hub="205">sps-05t-slc-094</domConfigList>
+    <domConfigList hub="206">sps-06t-slc-094</domConfigList>
+    <domConfigList hub="207">sps-07t-slc-098</domConfigList>
+    <domConfigList hub="208">sps-08t-slc-094</domConfigList>
     <triggerConfig>sps-IC59-030</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="iceTopTrigger"/>
