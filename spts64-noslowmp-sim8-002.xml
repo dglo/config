@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SPTS64 Test config for 8-string simulation with the SlowMP trigger
+-->
+<runConfig>
+  <domConfigList hub="1026">spts64-26c-40str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1027">spts64-27c-40str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1035">spts64-35c-40str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1036">spts64-36c-40str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1037">spts64-37c-40str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1044">spts64-44c-60str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1045">spts64-45c-60str-25Hz-sim-domlist</domConfigList>
+  <domConfigList hub="1046">spts64-46c-60str-25Hz-sim-domlist</domConfigList>
+  <triggerConfig>spts64-noslowmp-006</triggerConfig>
+  <runComponent name="inIceTrigger"/>
+  <runComponent name="globalTrigger"/>
+  <runComponent name="eventBuilder"/>
+  <runComponent name="secondaryBuilders"/>
+</runConfig>
