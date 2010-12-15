@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    In-water flasher test run of dec 16th (??) 2010.  Uses 
+    In-water flasher test run of dec 16th (??) 2010.  Uses
     just deepcore strings and calibration triggers.
 -->
 <runConfig>
@@ -17,7 +17,7 @@
     <domConfigList hub="84">sps-84i-slc-130</domConfigList>
     <domConfigList hub="85">sps-85i-slc-130</domConfigList>
     <domConfigList hub="86">sps-86i-slc-130</domConfigList>
-    <domConfigList hub="210">sps-10t-slc-130</domConfigList>
+    <!-- <domConfigList hub="210">sps-10t-slc-130</domConfigList> -->
     <triggerConfig>sps-icecube-019-cal-only</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>
