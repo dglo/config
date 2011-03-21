@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <!--
-    Trigger file for IC86 SlowMPTrigger domset 6 test based on sps-2011-01
+    Trigger file for IC86 SlowMPTrigger domset 2 test based on sps-2011-01
 -->
 
-<activeTriggers configurationId="1105">
+<activeTriggers configurationId="1103">
 
 <!--
     GlobalTrigger
@@ -75,9 +75,9 @@
         </readoutConfig>
     </triggerConfig>
 
-    <triggerConfig triggerId="2021">
+    <triggerConfig triggerId="2019">
         <triggerType>22</triggerType>
-        <triggerConfigId>22005</triggerConfigId>
+        <triggerConfigId>22006</triggerConfigId>
         <sourceId>4000</sourceId>
         <triggerName>SlowMPTrigger</triggerName>
         <parameterConfig paramId="117001">
@@ -107,10 +107,6 @@
         <parameterConfig paramId="117007">
             <parameterName>max_event_length</parameterName>
             <parameterValue>5000000</parameterValue>
-        </parameterConfig>
-        <parameterConfig paramId="117008">
-            <parameterName>domSet</parameterName>
-            <parameterValue>6</parameterValue>
         </parameterConfig>
         <readoutConfig readoutId="801">
             <readoutType>1</readoutType>
