@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="position_type">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="1"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="amanda_position_type">
+  <xs:restriction base="xs:decimal">
+    <xs:minInclusive value="0.0"/>
+    <xs:maxInclusive value="0.0"/>
+  </xs:restriction>
+</xs:simpleType>
+      
+<xs:simpleType name="name_type">
+  <xs:restriction base="xs:string">
+    <xs:minLength value="1"/>
+    <xs:pattern value="[^\s]*"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="xy_coord_type">
+  <xs:restriction base="xs:decimal">
+    <xs:minInclusive value="-650.0"/>
+    <xs:maxInclusive value="650.0"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="z_coord_type">
+  <xs:restriction base="xs:decimal">
+    <xs:minInclusive value="-550."/>
+    <xs:maxInclusive value="2000."/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="productionid_type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([ATU][EPLM][3-9][JKGPYH][0-9][0-9][0-9][0-9])|(SPTS.*)"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:group name="amanda_group">
+  <xs:sequence>
+    <xs:element name="mainBoardId" type="xs:string"/>
+    <xs:element name="name" type="name_type"/>
+    <xs:element name="productionId" type="xs:string"/>    
+    <xs:element name="xCoordinate" type="amanda_position_type" minOccurs="0" />
+    <xs:element name="yCoordinate" type="amanda_position_type" minOccurs="0" />
+    <xs:element name="zCoordinate" type="amanda_position_type" minOccurs="0" />
+  </xs:sequence>
+</xs:group>
+
+<xs:group name="standard_dom_group">
+  <xs:sequence>
+    <xs:element name="channelId">
+      <xs:simpleType>
+	<xs:restriction base="xs:integer">
+	  <xs:minInclusive value="1"/>
+	</xs:restriction>
+      </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="mainBoardId" type="xs:string"/>
+    <xs:element name="name" type="name_type"/>
+    <xs:element name="productionId" type="productionid_type"/>
+
+    <xs:element name="xCoordinate" type="xy_coord_type"/>
+    <xs:element name="yCoordinate" type="xy_coord_type"/>
+    <xs:element name="zCoordinate" type="z_coord_type"/>
+  </xs:sequence>
+</xs:group>
+
+<xs:element name="domGeometry">
+  <xs:complexType>
+    <xs:sequence>
+
+      <!-- string elements -->
+      <xs:element name="string" minOccurs="1" maxOccurs="unbounded">
+	<xs:complexType>
+	  <xs:sequence>
+	    
+	    <!-- string number -->
+	    <xs:element name="number">
+	      <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="0"/>
+		  <!-- okay, so maybe not the best, but
+		   it's the largest string number in the
+		   database right now
+		  -->
+		  <xs:maxInclusive value="3001"/>
+		</xs:restriction>
+	      </xs:simpleType>
+	    </xs:element>
+
+	    
+	    <xs:element name="dom" minOccurs="1" maxOccurs="unbounded">
+	      <xs:complexType>
+		<xs:sequence>
+		  <xs:element name="originalString" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+		  <xs:element name="position" type="position_type"/>
+		  <xs:choice>
+		    <xs:group ref="amanda_group"/>
+		    <xs:group ref="standard_dom_group"/>
+		  </xs:choice>
+		</xs:sequence>
+	      </xs:complexType>
+	    </xs:element>
+
+	  </xs:sequence>
+	</xs:complexType>
+      </xs:element>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
