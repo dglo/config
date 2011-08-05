@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="activeTriggers">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="triggerConfig" minOccurs="1" maxOccurs="unbounded">
+	<xs:complexType>
+	  <xs:sequence>
+	    <xs:element name="triggerType" type="xs:integer" />
+	    <xs:element name="triggerConfigId" type="xs:integer" />
+	    <xs:element name="sourceId" type="xs:integer"/>
+	    <xs:element name="triggerName" type="xs:string"/>
+	    
+	    <xs:element name="parameterConfig" minOccurs="0" maxOccurs="unbounded">
+	      <xs:complexType>
+		<xs:sequence>
+		  <xs:element name="parameterName" type="xs:string"/>
+		  <xs:element name="parameterValue" type="xs:decimal"/>
+		</xs:sequence>
+		<xs:attribute name="paramId" type="xs:integer" use="optional"/>
+	      </xs:complexType>
+	    </xs:element>
+	    
+	    <xs:element name="readoutConfig" minOccurs="0" maxOccurs="unbounded">
+	      <xs:complexType>
+		<xs:sequence>
+		  <xs:element name="readoutType" type="xs:integer"/>
+		  <xs:element name="timeOffset" type="xs:integer"/>
+		  <xs:element name="timeMinus" type="xs:integer"/>
+		  <xs:element name="timePlus" type="xs:integer"/>
+		</xs:sequence>
+		<xs:attribute name="readoutId" type="xs:integer" use="optional"/>
+	      </xs:complexType>
+	    </xs:element>
+	  </xs:sequence>
+	  <xs:attribute name="triggerId" type="xs:integer" use="optional"/>
+	</xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="configurationId" type="xs:integer" use="optional"/>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
+
