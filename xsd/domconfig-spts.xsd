@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- The following are custom types defined for range checking on dom config 
+arguments.  Asking daq-dev did not come up with a concrete list of
+valid ranges for dom setting arguments so some code was written to
+parse all dom config files with an sps* prefix and generate some
+statistics about the range of values used.  The types here will
+explain the range of values actually used, but will contain a 10% slop
+factor to lower the chance of false positives when validating xml
+files.
+
+Note that this schema is tuned to check REAL dom config files.  It will do
+so fairly strictly.  This will trip on some simulated dom config files, but
+altering the schema to support them is a bit questionable.
+
+-->
+
+
+<!-- cableLengthType max/min = 2725/550
+     with slop max/min = 2997 / 495
+-->
+<xs:simpleType name="cableLengthType">
+  <xs:restriction base="xs:integer">
+    <xs:maxInclusive value="2997"/>
+    <xs:minInclusive value="495"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+<!-- trigger mode type
+-->
+<xs:simpleType name="triggerModeType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="mpe"/>
+    <xs:enumeration value="spe"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- analog mux type 
+-->
+<xs:simpleType name="analogMuxType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="off"/>
+    <xs:enumeration value="clock"/>
+    <xs:enumeration value="clock2x"/>
+    <xs:enumeration value="onboardLedCurrent"/>
+    <xs:enumeration value="flasherLedCurrent"/>
+    <xs:enumeration value="localCoincidenceDown"/>
+    <xs:enumeration value="localCoincidenceUp"/>
+    <xs:enumeration value="commAdc"/>
+    <xs:enumeration value="internalPulser"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- pulserMode type
+-->
+<xs:simpleType name="pulserModeType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="beacon"/>
+    <xs:enumeration value="pulser"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+<!-- boolean string type (true/false)
+-->
+<xs:simpleType name="booleanStringType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="true"/>
+    <xs:enumeration value="false"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- Local Coincidence mode type
+-->
+<xs:simpleType name="modeType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="none"/>
+    <xs:enumeration value="up-or-down"/>
+    <xs:enumeration value="up"/>
+    <xs:enumeration value="down"/>
+    <xs:enumeration value="up-and-down"/>
+    <xs:enumeration value="headers-only"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+
+<!-- local coincidence txMode
+-->
+<xs:simpleType name="txModeType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="none"/>
+    <xs:enumeration value="both"/>
+    <xs:enumeration value="up"/>
+    <xs:enumeration value="down"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- local coincidence source type
+-->		
+<xs:simpleType name="sourceType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="spe"/>
+    <xs:enumeration value="mpe"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<!-- local coincidence type
+-->
+<xs:simpleType name="localCoincidenceType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="hard"/>
+    <xs:enumeration value="soft"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+
+<xs:element name="domConfigList">
+ <xs:complexType>
+
+<xs:sequence>
+
+<xs:element name="domConfig" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType>
+  <!-- REAL DOM CONFIG -->
+  <xs:all>
+    <xs:element name="format">
+      <xs:complexType>
+	<xs:choice>
+	  <xs:element name="deltaCompressed"/>
+
+	  <xs:element name="engineeringFormat">
+	    <xs:complexType>
+	      <xs:sequence>
+		<xs:element name="fadcSamples" type="xs:integer"/>
+		<xs:element name="atwd" minOccurs="4" maxOccurs="4">
+		  <xs:complexType>
+		    <xs:sequence>
+		      <xs:element name="samples" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+		    </xs:sequence>
+		    <xs:attribute name="ch" type="xs:integer"/>
+		  </xs:complexType>
+	      </xs:element>
+	      </xs:sequence>
+	    </xs:complexType>
+	  </xs:element>
+
+	</xs:choice>
+      </xs:complexType>
+    </xs:element>
+
+    <xs:element name="atwdChipSelect" type="xs:string" minOccurs="0"/>
+    
+    <xs:element name="triggerMode" type="triggerModeType"/>
+    
+    <xs:element name="atwd0TriggerBias" type="xs:integer"/>
+    <xs:element name="atwd1TriggerBias" type="xs:integer"/>
+    <xs:element name="atwd0RampRate" type="xs:integer"/>
+    <xs:element name="atwd1RampRate" type="xs:integer"/>
+    <xs:element name="atwd0RampTop" type="xs:integer"/>
+    <xs:element name="atwd1RampTop" type="xs:integer"/>
+    <xs:element name="atwdAnalogRef" type="xs:integer"/>
+    <xs:element name="frontEndPedestal" type="xs:integer"/>
+    <xs:element name="fastAdcRef" type="xs:integer"/>
+    <xs:element name="speTriggerDiscriminator" type="xs:integer"/>
+    <xs:element name="mpeTriggerDiscriminator" type="xs:integer"/>
+    <xs:element name="internalPulser" type="xs:integer"/>
+    <xs:element name="ledBrightness" type="xs:integer"/>
+    <xs:element name="frontEndAmpLowerClamp" type="xs:integer"/>
+    
+    <!-- Okay, so this isn't the best..  This should be a choice
+	 but that doesn't appear to work inside a all -->
+    <xs:element name="flasherDelay" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="flasherRef" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+    
+    
+    <xs:element name="muxBias" type="xs:integer"/>
+    <xs:element name="pmtHighVoltage" type="xs:integer"/>
+
+    <xs:element name="analogMux" type="analogMuxType"/>
+
+    <xs:element name="pulserMode" type="pulserModeType"/>
+    
+    <xs:element name="pulserRate" type="xs:integer"/>
+    <xs:element name="pedestalSubtract" minOccurs="0" maxOccurs="1" type="booleanStringType"/>
+
+
+    <xs:element name="hardwareMonitorInterval" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+
+    <xs:element name="chargeStamp" minOccurs="0" maxOccurs="1">
+      <xs:complexType>
+	<xs:attribute name="type">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:string">
+	      <xs:enumeration value="atwd"/>
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="channel" type="xs:string" use="optional"/>
+      </xs:complexType>
+    </xs:element>
+
+    <xs:element name="chargeHistogram" minOccurs="0" maxOccurs="1">
+      <xs:complexType>
+	<xs:sequence>
+	  <xs:element name="interval" type="xs:integer"/>
+	  <xs:element name="prescale" type="xs:integer"/>
+	</xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+    <xs:element name="enableIceTopMinBias" minOccurs="0"/>
+    <xs:element name="disabaleIceTopMinBias" minOccurs="0"/>
+
+    <xs:element name="localCoincidence">
+      <xs:complexType>
+	<xs:sequence>
+
+	  <xs:element name="type" type="localCoincidenceType"/>
+
+	  <xs:element name="mode" type="modeType"/>
+
+	  <xs:element name="txMode" type="txModeType"/>
+
+	  <xs:element name="source" type="sourceType"/>
+
+	  <xs:element name="span" type="xs:integer"/>
+	  <xs:element name="preTrigger" type="xs:integer"/>
+	  <xs:element name="postTrigger" type="xs:integer"/>
+	  <xs:element name="cableLength" maxOccurs="unbounded">
+	    <xs:complexType>
+	      <xs:simpleContent>
+		<xs:extension base="xs:integer">
+		  <xs:attribute name="dir" type="xs:string" use="required"/>
+		  <xs:attribute name="dist" type="xs:integer" use="required"/>
+		</xs:extension>
+	      </xs:simpleContent>
+	    </xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="supernovaMode">
+      <xs:complexType>
+	<xs:all>
+	  <xs:element name="deadtime" type="xs:integer" minOccurs="0"/>
+	  <xs:element name="disc" type="xs:string" minOccurs="0"/>
+	</xs:all>
+	<xs:attribute name="enabled" type="xs:string" use="required"/>
+      </xs:complexType>
+    </xs:element>
+      
+    <xs:element name="scalerDeadtime" type="xs:integer"/>
+  </xs:all>
+  <xs:attribute name="name" type="xs:string" use="optional"/>
+  <xs:attribute name="mbid" type="xs:string" use="required"/>
+</xs:complexType>
+</xs:element>
+
+</xs:sequence>
+<xs:attribute name="configId" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>
