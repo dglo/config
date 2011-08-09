@@ -125,6 +125,22 @@ altering the schema to support them is a bit questionable.
   </xs:restriction>
 </xs:simpleType>
 
+<!-- average pedestal attribute types 
+-->
+<xs:simpleType name="avgPedAtwdType">
+  <xs:restriction base="xs:string">
+    <xs:whiteSpace value="collapse"/>
+    <xs:enumeration value="A"/>
+    <xs:enumeration value="B"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="avgPedChanType">
+  <xs:restriction base="xs:integer">
+    <xs:maxInclusive value="2"/>
+    <xs:minInclusive value="0"/>
+  </xs:restriction>
+</xs:simpleType>
 
 
 <xs:element name="domConfigList">
@@ -223,6 +239,23 @@ altering the schema to support them is a bit questionable.
 
     <xs:element name="enableIceTopMinBias" minOccurs="0"/>
     <xs:element name="disabaleIceTopMinBias" minOccurs="0"/>
+
+    <xs:element name="pedestalSettings" minOccurs="0">
+      <xs:complexType>
+	<xs:sequence>
+	  <xs:element name="averagePedestal" minOccurs="6" maxOccurs="6">
+	    <xs:complexType>
+	      <xs:simpleContent>
+		<xs:extension base="xs:integer">
+		  <xs:attribute name="atwd" type="avgPedAtwdType" use="required"/>
+		  <xs:attribute name="ch" type="avgPedChanType" use="required"/>
+		</xs:extension>
+	      </xs:simpleContent>
+	    </xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+      </xs:complexType>
+    </xs:element>
 
     <xs:element name="localCoincidence">
       <xs:complexType>
