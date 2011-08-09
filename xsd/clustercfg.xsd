@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:simpleType name="logLevelType">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="collapse"/>
+      <xs:enumeration value="DEBUG"/>
+      <xs:enumeration value="INFO"/>
+      <xs:enumeration value="WARN"/>
+      <xs:enumeration value="ERROR"/>
+      <xs:enumeration value="FATAL"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="componentNameType">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="collapse"/>
+      <xs:enumeration value="StringHub"/>
+      <xs:enumeration value="inIceTrigger"/>
+      <xs:enumeration value="globalTrigger"/>
+      <xs:enumeration value="iceTopTrigger"/>
+      <xs:enumeration value="amandaTrigger"/>
+      <xs:enumeration value="eventBuilder"/>
+      <xs:enumeration value="SecondaryBuilders"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="booleanStrType">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="collapse"/>
+      <xs:enumeration value="true"/>
+      <xs:enumeration value="false"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="componentType">
+    <xs:sequence>
+      <xs:element name="jvm" type="xs:string" minOccurs="0"/>
+      <xs:element name="jvmArgs" type="xs:string" minOccurs="0"/>
+      <xs:element name="logLevel" type="logLevelType" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="componentNameType" use="required"/>
+    <xs:attribute name="id" type="xs:integer" use="optional"/>
+    <xs:attribute name="required" type="booleanStrType" use="optional"/>
+   </xs:complexType>
+
+  <xs:element name="cluster">
+    <xs:complexType>
+      <xs:sequence>
+	
+	<xs:element name="logDirForSpade" type="xs:string"/>
+	<xs:element name="logDirCopies" type="xs:string" minOccurs="0"/>
+	
+	<xs:element name="default">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="jvm" type="xs:string"/>
+	      <xs:element name="jvmArgs" type="xs:string"/>
+	      <xs:element name="logLevel" type="logLevelType" minOccurs="0"/>
+	      
+	      <xs:element name="component" type="componentType" minOccurs="0"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+
+	
+	<xs:element name="host" maxOccurs="unbounded">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="controlServer" minOccurs="0"/>
+
+	      <xs:element name="component" type="componentType" maxOccurs="unbounded" minOccurs="0"/>
+	      
+	      <xs:element name="simulatedHub" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:attribute name="number" type="xs:integer" use="required"/>
+		  <xs:attribute name="priority" type="xs:integer" use="required"/>
+		  <xs:attribute name="ifUnused" type="booleanStrType" use="optional"/>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:sequence>
+
+	    <xs:attribute name="name" type="xs:string" use="required"/>
+	  </xs:complexType>
+	</xs:element>
+	
+	
+
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
