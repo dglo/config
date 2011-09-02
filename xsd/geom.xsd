@@ -64,7 +64,7 @@
 
     <xs:element name="mainBoardId" type="xs:string"/>
     <xs:element name="name" type="name_type"/>
-    <xs:element name="productionId" type="productionid_type"/>
+    <xs:element name="productionId" type="productionid_type" minOccurs="0"/>
 
     <xs:element name="xCoordinate" type="xy_coord_type"/>
     <xs:element name="yCoordinate" type="xy_coord_type"/>
