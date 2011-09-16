@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  
+  <start>
+    <element name="runConfig">
+      <interleave>	
+	
+	<optional>
+	  <ref name="watchdogType"/>
+	</optional>
+
+	<optional>
+	  <ref name="monitorType"/>
+	</optional>
+
+	<!-- this is zero or more because of replay-ic22-it4.xml -->
+	<!-- ( has no domConfigList ) -->
+	<zeroOrMore>
+	  <ref name="domConfigListType"/>
+	</zeroOrMore>
+
+	<oneOrMore>
+	  <ref name="runComponentType"/>
+	</oneOrMore>
+
+	<zeroOrMore>
+	  <ref name="stringHubType"/>
+	</zeroOrMore>
+
+	<optional>
+	  <ref name="hubFilesType"/>
+	</optional>
+
+	<optional>
+	  <ref name="setSnDistanceType"/>
+	</optional>
+
+	<!-- must be only one of these -->
+	<ref name="triggerConfigType"/>
+	
+	<optional>
+	  <ref name="streamType"/>
+	</optional>
+	
+      </interleave>
+    </element>
+  </start>
+
+  <define name="booleanStringType">
+    <choice>
+      <value type="string">true</value>
+      <value type="string">false</value>
+    </choice>
+  </define>
+  
+  <define name="watchdogType">
+    <element name="watchdog">
+      <attribute name="period">
+	<!-- xml data type..  positiveInteger means 1 and up -->
+	<data type="positiveInteger"/>
+      </attribute>
+    </element>
+  </define>
+  
+  <define name="monitorType">
+    <element name="monitor">
+      <attribute name="period">
+	<!-- xml data type..  positiveInteger means 1 and up -->
+	<data type="positiveInteger"/>
+      </attribute>
+    </element>
+  </define>
+
+
+  <define name="domConfigListType">
+    <element name="domConfigList">
+      <data type="string"/>
+      <optional>
+	<attribute name="hub">
+	  <data type="integer"/>
+	</attribute>
+      </optional>
+    </element>
+  </define>
+  
+
+  <define name="runComponentType">
+    <element name="runComponent">
+      <attribute name="name">
+	<data type="string"/>
+      </attribute>
+    </element>
+  </define>
+  
+  
+  <define name="stringHubType">
+    <element name="stringHub">
+      <attribute name="hubId">
+	<data type="integer"/>
+      </attribute>
+      
+      <optional>
+	<element name="sender">
+	  <element name="forwardIsolatedHitsToTrigger">
+	    <ref name="booleanStringType"/>	    
+	  </element>
+	</element>
+      </optional>
+      
+      <optional>
+	<element name="hitspool">
+	  <element name="enabled">
+	    <ref name="booleanStringType"/>
+	  </element>
+	  <element name="directory">
+	    <data type="string"/>
+	  </element>
+	  <element name="hits">
+	    <data type="integer"/>
+	  </element>
+	</element>
+      </optional>
+    </element>
+  </define>
+  <!-- end of stringHub element -->
+  
+
+  <!-- the hubFiles option appears in a limited subset of runConfigs -->
+  <!-- the only one is: replay-ic22-it4.xml -->
+  <define name="hubFilesType">
+    <element name="hubFiles">
+      <attribute name="baseDir">
+	<data type="string"/>
+      </attribute>
+
+      <oneOrMore>
+	<element name="hub">
+
+	  <attribute name="id">
+	    <data type="integer"/>
+	  </attribute>
+	  
+	  <attribute name="hitFile">
+	    <data type="string"/>
+	  </attribute>
+
+	</element>
+      </oneOrMore>
+
+    </element>
+  </define>
+
+
+  <define name="setSnDistanceType">
+    <element name="setSnDistance">
+      <data type="integer"/>
+    </element>
+  </define>
+  
+  
+  <define name="triggerConfigType">
+    <element name="triggerConfig">
+      <data type="string"/>
+    </element>
+  </define>
+  
+  <define name="streamType">
+    <element name="stream">
+      <attribute name="name">
+	<data type="string"/>
+      </attribute>
+      
+      <element name="prescale">
+	<data type="integer"/>
+      </element>
+    </element>
+  </define>
+  
+  
+</grammar>
