@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Run Config for IC86 use.  IC86 DOM configs are
+     based on the V171 release.
+     Triggers are IC86 triggers -
+-->
+<runConfig>
+    <domConfigList hub="1">sps-01i-slc-176</domConfigList>
+    <domConfigList hub="2">sps-02i-slc-174</domConfigList>
+    <domConfigList hub="3">sps-03i-slc-175</domConfigList>
+    <domConfigList hub="4">sps-04i-slc-175</domConfigList>
+    <domConfigList hub="5">sps-05i-slc-176</domConfigList>
+    <triggerConfig>sps-2011-slowmp-ds6</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

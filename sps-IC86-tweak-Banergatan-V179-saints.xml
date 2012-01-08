@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Run Config for IC86 use.  IC86 DOM configs are
+     based on the V171 release.
+     Triggers are IC86 triggers -
+-->
+<runConfig>
+    <domConfigList hub="8">sps-08i-slc-174</domConfigList>
+    <domConfigList hub="9">sps-09i-slc-174</domConfigList>
+    <domConfigList hub="15">sps-15i-slc-174</domConfigList>
+    <domConfigList hub="16">sps-16i-slc-174</domConfigList>
+    <domConfigList hub="23">sps-23i-slc-174</domConfigList>
+    <domConfigList hub="24">sps-24i-slc-174</domConfigList>
+    <domConfigList hub="25">sps-25i-slc-174</domConfigList>
+    <domConfigList hub="32">sps-32i-slc-174</domConfigList>
+    <domConfigList hub="33">sps-33i-slc-174</domConfigList>
+    <domConfigList hub="34">sps-34i-slc-174</domConfigList>
+    <domConfigList hub="35">sps-35i-slc-174</domConfigList>
+    <domConfigList hub="41">sps-41i-slc-174</domConfigList>
+    <domConfigList hub="42">sps-42i-slc-174</domConfigList>
+    <domConfigList hub="43">sps-43i-slc-174</domConfigList>
+    <domConfigList hub="51">sps-51i-slc-175</domConfigList>
+    <domConfigList hub="81">sps-81i-slc-174</domConfigList>
+    <domConfigList hub="82">sps-82i-slc-174</domConfigList>
+    <domConfigList hub="84">sps-84i-slc-174</domConfigList>
+    <domConfigList hub="85">sps-85i-slc-174</domConfigList>
+    <domConfigList hub="86">sps-86i-slc-174</domConfigList>
+    <domConfigList hub="209">sps-09t-slc-175</domConfigList>
+    <domConfigList hub="210">sps-10t-slc-175</domConfigList>
+    <triggerConfig>sps-2011-slowmp-ds6</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
