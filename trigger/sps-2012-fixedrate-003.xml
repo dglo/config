@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <!--
-    Trigger file for IC86 SlowMPTrigger domset 6 test based on sps-2011-01
+    Trigger file for FixedRateTrigger test
+    0. 5 sec 10 ms window
+    1. 30 sec 100 ms window
+    2. 300 sec 1 s window
+    
 -->
 
 <activeTriggers configurationId="1202">
@@ -309,7 +313,7 @@
         <triggerName>FixedRateTrigger</triggerName>
         <parameterConfig>
             <parameterName>interval</parameterName>
-            <parameterValue>100000000000</parameterValue>
+            <parameterValue>50000000000</parameterValue>
         </parameterConfig>
         <readoutConfig>
             <readoutType>0</readoutType>
@@ -326,7 +330,7 @@
         <triggerName>FixedRateTrigger</triggerName>
         <parameterConfig>
             <parameterName>interval</parameterName>
-            <parameterValue>1000000000000</parameterValue>
+            <parameterValue>300000000000</parameterValue>
         </parameterConfig>
         <readoutConfig>
             <readoutType>0</readoutType>
@@ -343,7 +347,7 @@
         <triggerName>FixedRateTrigger</triggerName>
         <parameterConfig>
             <parameterName>interval</parameterName>
-            <parameterValue>10000000000000</parameterValue>
+            <parameterValue>3000000000000</parameterValue>
         </parameterConfig>
         <readoutConfig>
             <readoutType>0</readoutType>
