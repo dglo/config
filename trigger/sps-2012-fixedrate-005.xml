@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <!--
-    V005 of the FRT config : kinder gentler ...
-    37 sec +/- 5 ms window
-    181 sec +/- 25 ms window
+    Standard 2011 triggers plus FixedRateTrigger x2:
+    (4000,23,23010)  37 sec +/-  5 ms window
+    (4000,23,23011) 181 sec +/- 25 ms window
 -->
 
-<activeTriggers configurationId="1202">
+<activeTriggers configurationId="1205">
 
 <!--
     GlobalTrigger
@@ -306,7 +306,7 @@
 
     <triggerConfig>
         <triggerType>23</triggerType>
-        <triggerConfigId>23001</triggerConfigId>
+        <triggerConfigId>23010</triggerConfigId>
         <sourceId>4000</sourceId>
         <triggerName>FixedRateTrigger</triggerName>
         <parameterConfig>
@@ -325,7 +325,7 @@
 
     <triggerConfig>
         <triggerType>23</triggerType>
-        <triggerConfigId>23002</triggerConfigId>
+        <triggerConfigId>23011</triggerConfigId>
         <sourceId>4000</sourceId>
         <triggerName>FixedRateTrigger</triggerName>
         <parameterConfig>
