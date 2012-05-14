@@ -114,12 +114,24 @@
 	  <element name="enabled">
 	    <ref name="booleanStringType"/>
 	  </element>
-	  <element name="directory">
-	    <data type="string"/>
-	  </element>
-	  <element name="hits">
-	    <data type="integer"/>
-	  </element>
+	  <optional>
+	    <!-- the stringhub source code uses a default directory -->
+	    <!-- of /mnt/data/pdaqlocal if the directory is not specified -->
+	    <element name="directory">
+	      <data type="string"/>
+	    </element>
+	  </optional>
+
+	  <optional>
+	    <element name="hits">
+	      <data type="integer"/>
+	    </element>
+	  </optional>
+          <optional>
+	    <element name="interval">
+	      <data type="double"/>
+	    </element>
+	  </optional>
 	</element>
       </optional>
     </element>

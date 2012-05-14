@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+<!-- flasherRef max/min = 450/450/450 
+     with slop  max/min = 495/405
+  -->
+<define name="flasherRefType">
+  <data type="integer">
+    <param name="maxInclusive">450</param>
+    <param name="minInclusive">450</param>
+  </data>
+</define>
+
+<!-- muxBias max/min = 1000/500
+     with slop max/min = 1100/450
+-->
+<define name="muxBiasType">
+  <data type="integer">
+    <param name="maxInclusive">1100</param>
+    <param name="minInclusive">450</param>
+  </data>
+</define>
+
+<!-- led brightness max/min = 1023/1023
+     with slop max/min = 1125 / 920
+-->
+<define name="ledBrightnessType">
+  <data type="integer">
+    <param name="maxInclusive">1023</param>
+    <param name="minInclusive">1023</param>
+  </data>
+</define>
+
+<!-- atwd1RampRate max/min = 350/350
+     with slop max/min = 385/315
+-->
+<define name="atwd1RampRateType">
+  <data type="integer">
+    <param name="maxInclusive">350</param>
+    <param name="minInclusive">350</param>
+  </data>
+</define>
+
+
+<!-- hardwareMonitorInterval max/min = 1/1
+     with slop max/min = 1/1
+-->
+<define name="hardwareMonitorIntervalType">
+  <data type="integer">
+    <param name="maxInclusive">1</param>
+    <param name="minInclusive">1</param>
+  </data>
+</define>
+
+<!-- frontEndPedestal max/min = 2130/2130
+     with slop max/min = 2343 / 1917
+-->
+<define name="frontEndPedestalType">
+  <data type="integer">
+    <param name="maxInclusive">2130</param>
+    <param name="minInclusive">2130</param>
+  </data>
+</define>
+
+<!-- frontEndAmpLowerClamp max/min = 0/0
+     with slop max/min = 0/0
+-->
+<define name="frontEndAmpLowerClampType">
+  <data type="integer">
+    <param name="maxInclusive">0</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<!-- atwd0RampRate max/min = 350/350
+     with slop max/min = 385/315
+-->
+<define name="atwd0RampRateType">
+  <data type="integer">
+    <param name="maxInclusive">350</param>
+    <param name="minInclusive">350</param>
+  </data>
+</define>
+
+<!-- scalerDeadtimeType max/min = 51200/51200
+     with slop max/min = 56320/46080
+-->
+<define name="scalerDeadtimeType">
+  <data type="integer">
+    <param name="maxInclusive">51200</param>
+    <param name="minInclusive">51200</param>
+  </data>
+</define>
+
+<!-- flasherDelay max/min = 450/0
+     with slop max/min = 495/0 ( apparently this in adc counts, nothing less tha
+n 0 )
+-->
+<define name="flasherDelayType">
+  <data type="integer">
+    <param name="maxInclusive">495</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<!-- fastAdcRef max/min = 800/800
+     with slop max/min = 880/720
+-->
+<define name="fastAdcRefType">
+  <data type="integer">
+    <param name="maxInclusive">800</param>
+    <param name="minInclusive">800</param>
+  </data>
+</define>
+
+<!-- speTriggerDiscriminator max/min = 1023 / 538
+     with slop max/min = 1125 / 484
+-->
+<define name="speTriggerDiscriminatorType">
+  <data type="integer">
+    <param name="maxInclusive">1125</param>
+    <param name="minInclusive">484</param>
+  </data>
+</define>
+
+<!-- pulserRate max/min = 5/1
+    with slop max/min = 6 / 0
+-->
+<define name="pulserRateType">
+  <data type="integer">
+    <param name="maxInclusive">5</param>
+    <param name="minInclusive">1</param>
+  </data>
+</define>
+
+<!-- atwd1RampTop max/min = 2300 / 2300
+     with slop max/min = 2530 / 2070
+-->
+<define name="atwd1RampTopType">
+  <data type="integer">
+    <param name="maxInclusive">2300</param>
+    <param name="minInclusive">2300</param>
+  </data>
+</define>
+
+<!-- pmtHighVoltage max/min = 3374 / 0 
+     with slop max/min = 3711/0
+
+     As per Mark K. this parameter is in 1/2 volt counts.
+     The upper limit is to be set to never allow the voltage to 
+     be over 1900 volts.  1900/0.5 = 3800
+-->
+<define name="pmtHighVoltageType">
+  <data type="integer">
+    <param name="maxInclusive">3800</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<!-- internal pulser max/min = 0/0
+     with slop max/min = 0 / 0
+-->
+<define name="internalPulserType">
+  <data type="integer">
+    <param name="maxInclusive">0</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<!-- atwdAnalogRef max/min = 2250 / 2250 
+     with slop max/min = 2475 / 2025
+-->
+<define name="atwdAnalogRefType">
+  <data type="integer">
+    <param name="maxInclusive">2250</param>
+    <param name="minInclusive">2250</param>
+  </data>
+</define>
+
+<!-- mpeTriggerDiscriminator max/min = 971 / 546
+     with slop max/min = 1068 / 491
+    <xs:minInclusive value="491"/>
+
+NOTE: According to Mark K -32768 is NOT a valid value here.
+It gets set by domcal, but is a garbage value.  His preference
+is to flag this value as an error.
+-->
+<define name="mpeTriggerDiscriminatorType">
+  <data type="integer">
+    <param name="maxInclusive">1068</param>
+    <param name="minInclusive">491</param>
+  </data>
+</define>
+
+<!-- atwd0TriggerBias max/min = 1011/694
+     with slop max/min = 1112 / 624
+-->
+<define name="atwd0TriggerBiasType">
+  <data type="integer">
+    <param name="maxInclusive">1112</param>
+    <param name="minInclusive">624</param>
+  </data>
+</define>
+
+<!-- atwd1TriggerBias max/min = 1010 / 734
+     with slop max/min = 1111 / 660
+-->
+<define name="atwd1TriggerBiasType">
+  <data type="integer">
+    <param name="maxInclusive">1111</param>
+    <param name="minInclusive">660</param>
+  </data>
+</define>
+
+<!-- atwd0RampTop max/min = 2300 / 2300
+     with slop max/min = 2530 / 2070
+-->
+<define name="atwd0RampTopType">
+  <data type="integer">
+    <param name="maxInclusive">2300</param>
+    <param name="minInclusive">2300</param>
+  </data>
+</define>
+
+<!-- pretrigger/posttrigger max/min = 1000 
+     with slop max/min = 1100/900
+-->
+<define name="prepostTriggerType">
+  <data type="integer">
+    <param name="maxInclusive">1000</param>
+    <param name="minInclusive">1000</param>
+  </data>
+</define>
+
+
+<!-- span max/min = 2/1
+     with slop max/min = 3/0
+-->
+<define name="spanType">
+  <data type="integer">
+    <param name="maxInclusive">3</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<!-- cableLengthType max/min = 2725/550
+     with slop max/min = 2997 / 495
+-->
+<define name="cableLengthType">
+  <data type="integer">
+    <param name="maxInclusive">2997</param>
+    <param name="minInclusive">495</param>
+  </data>
+</define>
+
+<define name="avgPedChanType">
+  <data type="integer">
+    <param name="maxInclusive">2</param>
+    <param name="minInclusive">0</param>
+  </data>
+</define>
+
+<include href="domconfig.rng"/>
+
+<start>
+  <ref name="domConfigListType"/>
+</start>
+</grammar>
+
+	
+      
+
+
+
+      
+	
+
+
+      
+      
