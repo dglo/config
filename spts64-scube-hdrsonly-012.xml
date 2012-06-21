@@ -1,5 +1,13 @@
-Debugger entered--Lisp error: (void-variable >spts64-scube-hdrsonly-012)
-  eval(>spts64-scube-hdrsonly-012)
-  eval-last-sexp-1(nil)
-  eval-last-sexp(nil)
-  call-interactively(eval-last-sexp)
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SCUBE test run config
+    K. Hanson (2008/10/10)
+-->
+<runConfig>
+    <domConfigList hub="2009">spts64-scube-slc-hdrs-012</domConfigList>
+    <triggerConfig>mbt100-smt4-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
