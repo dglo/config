@@ -4,10 +4,15 @@
     K. Hanson (2008/10/10)
 -->
 <runConfig>
-    <domConfigList hub="2009">spts64-scube-slc-hdrs-012</domConfigList>
-    <triggerConfig>mbt100-smt4-001</triggerConfig>
-    <runComponent name="inIceTrigger"/>
-    <runComponent name="globalTrigger"/>
-    <runComponent name="eventBuilder"/>
-    <runComponent name="secondaryBuilders"/>
+  <stringHub hubId="2009">
+    <sender>
+      <forwardIsolatedHitsToTrigger>true</forwardIsolatedHitsToTrigger>
+    </sender>
+  </stringHub>
+  <domConfigList hub="2009">spts64-scube-slc-hdrs-012</domConfigList>
+  <triggerConfig>mbt100-smt4-001</triggerConfig>
+  <runComponent name="inIceTrigger"/>
+  <runComponent name="globalTrigger"/>
+  <runComponent name="eventBuilder"/>
+  <runComponent name="secondaryBuilders"/>
 </runConfig>
