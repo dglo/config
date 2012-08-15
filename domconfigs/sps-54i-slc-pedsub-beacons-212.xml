@@ -2870,6 +2870,14 @@
      <pulserMode>            beacon </pulserMode>
      <pulserRate>                 5 </pulserRate>
      <pedestalSubtract>        true </pedestalSubtract>
+     <pedestalSettings>
+         <averagePedestal atwd="A" ch="0"> 130</averagePedestal>
+         <averagePedestal atwd="A" ch="1"> 121</averagePedestal>
+         <averagePedestal atwd="A" ch="2"> 128</averagePedestal>
+         <averagePedestal atwd="B" ch="0"> 129</averagePedestal>
+         <averagePedestal atwd="B" ch="1"> 128</averagePedestal>
+         <averagePedestal atwd="B" ch="2"> 131</averagePedestal>
+     </pedestalSettings>
      <localCoincidence>
          <type>                soft </type>
          <mode>          up-or-down </mode>
@@ -2893,7 +2901,7 @@
      </supernovaMode>
      <scalerDeadtime>      51200 </scalerDeadtime>
  </domConfig>
- <domConfig mbid="9fcd706ca864" name="Raketoast" > 
+ <domConfig mbid="9fcd706ca864" name="Raketost" > 
  <!-- dom domId='9fcd706ca864' name='Raketoast' domhub='sps-ichub54' card='6' pair='1' ab='A' --> 
      <format>
          <deltaCompressed/>
@@ -2921,6 +2929,14 @@
      <pulserMode>            beacon </pulserMode>
      <pulserRate>                 5 </pulserRate>
      <pedestalSubtract>        true </pedestalSubtract>
+     <pedestalSettings>
+         <averagePedestal atwd="A" ch="0"> 123</averagePedestal>
+         <averagePedestal atwd="A" ch="1"> 126</averagePedestal>
+         <averagePedestal atwd="A" ch="2"> 129</averagePedestal>
+         <averagePedestal atwd="B" ch="0"> 132</averagePedestal>
+         <averagePedestal atwd="B" ch="1"> 132</averagePedestal>
+         <averagePedestal atwd="B" ch="2"> 136</averagePedestal>
+     </pedestalSettings>
      <localCoincidence>
          <type>                soft </type>
          <mode>          up-or-down </mode>
