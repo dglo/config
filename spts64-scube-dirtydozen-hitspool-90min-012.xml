@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SCUBE test run config
+    K. Hanson (2008/10/10)
+    Modified for hitspooling D.Heereman (2013/02/25)
+-->
+<runConfig>
+    <domConfigList hub="2009">spts64-scube09-slc-011</domConfigList>
+    <domConfigList hub="2021">spts64-ichub21-slc-006</domConfigList>
+    <domConfigList hub="2029">spts64-ichub29-slc-006</domConfigList>
+    <stringHub hubId="2021">
+      <hitspool>
+	    <enabled>true</enabled>
+	    <directory>/mnt/data/pdaqlocal</directory>
+	    <numFiles>1950</numFiles>
+	    <interval>15.0</interval>
+      </hitspool>
+    </stringHub>
+    <stringHub hubId="2029">
+      <hitspool>
+	    <enabled>true</enabled>
+	    <directory>/mnt/data/pdaqlocal</directory>
+	    <numFiles>1950</numFiles>
+	    <interval>15.0</interval>
+      </hitspool>
+    </stringHub>
+    <stringHub hubId="2009">
+      <hitspool>
+        <enabled>true</enabled>
+        <directory>/mnt/data/pdaqlocal</directory>
+		<hits>500000</hits>
+		<interval>15.0</interval>
+		<numFiles>360</numFiles>
+      </hitspool>
+    </stringHub>
+    <triggerConfig>spts64-test-002</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
