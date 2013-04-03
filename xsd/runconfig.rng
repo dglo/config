@@ -52,6 +52,8 @@
     <choice>
       <value type="string">true</value>
       <value type="string">false</value>
+      <value type="string">True</value>
+      <value type="string">False</value>
     </choice>
   </define>
   
@@ -111,9 +113,12 @@
       
       <optional>
 	<element name="hitspool">
+	  <interleave>
+
 	  <element name="enabled">
 	    <ref name="booleanStringType"/>
 	  </element>
+
 	  <optional>
 	    <!-- the stringhub source code uses a default directory -->
 	    <!-- of /mnt/data/pdaqlocal if the directory is not specified -->
@@ -122,16 +127,26 @@
 	    </element>
 	  </optional>
 
+	  <!-- appears to be depricated but keep for now as it's in older -->
+	  <!-- config files -->
 	  <optional>
 	    <element name="hits">
 	      <data type="integer"/>
 	    </element>
 	  </optional>
+
+	  <optional>
+	    <element name="numFiles">
+	      <data type="integer"/>
+	    </element>
+	  </optional>
+
           <optional>
 	    <element name="interval">
 	      <data type="double"/>
 	    </element>
 	  </optional>
+	  </interleave>
 	</element>
       </optional>
     </element>
