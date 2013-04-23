@@ -6,4 +6,11 @@
     <runComponent name="globalTrigger"/>
     <runComponent name="eventBuilder"/>
     <runComponent name="secondaryBuilders"/>
+    <stringHub hubId="2021">
+      <sender><forwardHitsToTrigger>true</forwardHitsToTrigger></sender>
+      <hitspool><enabled>true</enabled>
+        <directory>/mnt/data/pdaqlocal</directory>
+        <hits>5000</hits>
+      </hitspool>
+    </stringHub>
 </runConfig>
