@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='ASCII'?>
 <runConfig>
-  <stringHub hubId="1">
+  <hitspool>
+    <directory>/mnt/data/pdaqlocal</directory>
+    <hits>500000</hits>
+    <interval>15.0</interval>
+    <enabled>true</enabled>
+    <numFiles>360</numFiles>
+  </hitspool>
+  <stringHub hubId="1" domConfig="sps-01i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -9,16 +16,8 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="2">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="7">
+  <stringHub hubId="2" domConfig="sps-02i-slc-pedsub-223"/>
+  <stringHub hubId="7" domConfig="sps-07i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -27,7 +26,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="8">
+  <stringHub hubId="8" domConfig="sps-08i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -36,7 +35,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="9">
+  <stringHub hubId="9" domConfig="sps-09i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -45,7 +44,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="14">
+  <stringHub hubId="14" domConfig="sps-14i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -54,7 +53,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="15">
+  <stringHub hubId="15" domConfig="sps-15i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -63,7 +62,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="16">
+  <stringHub hubId="16" domConfig="sps-16i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -72,16 +71,8 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="17">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="22">
+  <stringHub hubId="17" domConfig="sps-17i-slc-pedsub-223"/>
+  <stringHub hubId="22" domConfig="sps-22i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -90,7 +81,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="23">
+  <stringHub hubId="23" domConfig="sps-23i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -99,7 +90,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="24">
+  <stringHub hubId="24" domConfig="sps-24i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -108,7 +99,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="25">
+  <stringHub hubId="25" domConfig="sps-25i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -117,7 +108,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="31">
+  <stringHub hubId="31" domConfig="sps-31i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -126,7 +117,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="32">
+  <stringHub hubId="32" domConfig="sps-32i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -135,7 +126,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="33">
+  <stringHub hubId="33" domConfig="sps-33i-slc-pedsub-225">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -144,16 +135,8 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="34">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="41">
+  <stringHub hubId="34" domConfig="sps-34i-slc-pedsub-223"/>
+  <stringHub hubId="41" domConfig="sps-41i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -162,7 +145,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="42">
+  <stringHub hubId="42" domConfig="sps-42i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -171,7 +154,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="43">
+  <stringHub hubId="43" domConfig="sps-43i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -180,7 +163,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="51">
+  <stringHub hubId="51" domConfig="sps-51i-slc-pedsub-223">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -189,34 +172,10 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="204">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="207">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="209">
-    <hitspool>
-      <directory>/mnt/data/pdaqlocal</directory>
-      <hits>500000</hits>
-      <interval>15.0</interval>
-      <enabled>true</enabled>
-      <numFiles>360</numFiles>
-    </hitspool>
-  </stringHub>
-  <stringHub hubId="210">
+  <stringHub hubId="204" domConfig="sps-04t-slc-pedsub-226"/>
+  <stringHub hubId="207" domConfig="sps-07t-slc-pedsub-226"/>
+  <stringHub hubId="209" domConfig="sps-09t-slc-pedsub-226"/>
+  <stringHub hubId="210" domConfig="sps-10t-slc-pedsub-226">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -225,7 +184,7 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="211">
+  <stringHub hubId="211" domConfig="sps-11t-slc-pedsub-226">
     <hitspool>
       <directory>/mnt/data/pdaqlocal</directory>
       <hits>500000</hits>
@@ -240,30 +199,4 @@
   <runComponent name="globalTrigger"/>
   <runComponent name="eventBuilder"/>
   <runComponent name="secondaryBuilders"/>
-  <domConfigList hub="1">sps-01i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="2">sps-02i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="7">sps-07i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="8">sps-08i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="9">sps-09i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="14">sps-14i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="15">sps-15i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="16">sps-16i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="17">sps-17i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="22">sps-22i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="23">sps-23i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="24">sps-24i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="25">sps-25i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="31">sps-31i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="32">sps-32i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="33">sps-33i-slc-pedsub-225</domConfigList>
-  <domConfigList hub="34">sps-34i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="41">sps-41i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="42">sps-42i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="43">sps-43i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="51">sps-51i-slc-pedsub-223</domConfigList>
-  <domConfigList hub="204">sps-04t-slc-pedsub-226</domConfigList>
-  <domConfigList hub="207">sps-07t-slc-pedsub-226</domConfigList>
-  <domConfigList hub="209">sps-09t-slc-pedsub-226</domConfigList>
-  <domConfigList hub="210">sps-10t-slc-pedsub-226</domConfigList>
-  <domConfigList hub="211">sps-11t-slc-pedsub-226</domConfigList>
 </runConfig>
