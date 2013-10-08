@@ -11,7 +11,8 @@
      baselines programmed into the DOM!!!  The files referenced
      are the correct programming values (ATWD chip B ch0 is
      properly set).
---><runConfig>
+-->
+<runConfig>
   <hitspool>
     <directory>/mnt/data/pdaqlocal</directory>
     <hits>500000</hits>
@@ -278,7 +279,9 @@
       <numFiles>1920</numFiles>
     </hitspool>
   </stringHub>
-  <stringHub hubId="44" domConfig="sps-44i-slc-pedsub-223"/>
+  <!--
+<stringHub hubId="44" domConfig="sps-44i-slc-pedsub-223"/>
+-->
   <stringHub hubId="45" domConfig="sps-45i-slc-pedsub-223"/>
   <stringHub hubId="46" domConfig="sps-46i-slc-pedsub-223"/>
   <stringHub hubId="47" domConfig="sps-47i-slc-pedsub-223"/>
@@ -435,3 +438,4 @@
   <runComponent name="eventBuilder"/>
   <runComponent name="secondaryBuilders"/>
 </runConfig>
+

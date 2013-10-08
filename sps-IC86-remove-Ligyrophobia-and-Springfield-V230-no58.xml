@@ -1,17 +1,5 @@
 <?xml version='1.0' encoding='ASCII'?>
-<!--
-     Run Config for IC86-2013 use.  
-     IC86 DOM configs are based on the V223 release, but with IceTop HV
-     reverted to IC86-2012 values, except for two corrected outliers.
-     Triggers are IC86-2013 triggers, which are the same
-     as 2012 but with no PhysMinBias and slower FRT.
-     HitSpool flags added and spool cycles individually adjusted for the different disk sizes. 
-     Small hubs have 3h and big hubs 16h hsdata buffered on /mnt/data/pdaqlocal/.
-     This XML refers to DOMconfigs which have the pedestal
-     baselines programmed into the DOM!!!  The files referenced
-     are the correct programming values (ATWD chip B ch0 is
-     properly set).
---><runConfig>
+<runConfig>
   <hitspool>
     <directory>/mnt/data/pdaqlocal</directory>
     <hits>500000</hits>
@@ -300,7 +288,6 @@
   <stringHub hubId="55" domConfig="sps-55i-slc-pedsub-223"/>
   <stringHub hubId="56" domConfig="sps-56i-slc-pedsub-223"/>
   <stringHub hubId="57" domConfig="sps-57i-slc-pedsub-223"/>
-  <stringHub hubId="58" domConfig="sps-58i-slc-pedsub-223"/>
   <stringHub hubId="59" domConfig="sps-59i-slc-pedsub-223"/>
   <stringHub hubId="60" domConfig="sps-60i-slc-pedsub-223"/>
   <stringHub hubId="61" domConfig="sps-61i-slc-pedsub-223"/>
