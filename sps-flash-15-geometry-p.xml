@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<runConfig>
+    <domConfigList hub="15">sps-15i-slc-130</domConfigList>
+    <domConfigList hub="7">sps-07i-slc-170</domConfigList>
+    <domConfigList hub="8">sps-08i-slc-130</domConfigList>
+    <domConfigList hub="14">sps-14i-slc-170</domConfigList>
+    <domConfigList hub="16">sps-16i-slc-130</domConfigList>
+    <domConfigList hub="23">sps-23i-slc-130</domConfigList>
+    <domConfigList hub="24">sps-24i-slc-130</domConfigList>
+    <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
