@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <runConfig>
     <replayFiles baseDir="/net/data2/pdaq/testdata/hitspool/120151">
-        <hits hub="1" source="hs_data_run120151_hub01" />
+        <hits hub="1" source="ichub01" />
 <!-- hub02 is missing HitSpool-[7-9].dat
-        <hits hub="2" source="hs_data_run120151_hub02" />
+        <hits hub="2" source="ichub02" />
 -->
-        <hits hub="3" source="hs_data_run120151_hub03" />
-        <hits hub="4" source="hs_data_run120151_hub04" />
-        <hits hub="5" source="hs_data_run120151_hub05" />
-        <hits hub="6" source="hs_data_run120151_hub06" />
-        <hits hub="7" source="hs_data_run120151_hub07" />
-        <hits hub="8" source="hs_data_run120151_hub08" />
-        <hits hub="9" source="hs_data_run120151_hub09" />
-        <hits hub="10" source="hs_data_run120151_hub10" />
+        <hits hub="3" source="ichub03" />
+        <hits hub="4" source="ichub04" />
+        <hits hub="5" source="ichub05" />
+        <hits hub="6" source="ichub06" />
+        <hits hub="7" source="ichub07" />
+        <hits hub="8" source="ichub08" />
+        <hits hub="9" source="ichub09" />
+        <hits hub="10" source="ichub10" />
     </replayFiles>
     <triggerConfig>sps-2012-slowmp-013</triggerConfig>
     <runComponent name="inIceTrigger"/>
