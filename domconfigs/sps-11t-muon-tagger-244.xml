@@ -334,7 +334,7 @@
         <frontEndPedestal> 2130 </frontEndPedestal>
         <fastAdcRef> 800 </fastAdcRef>
         <speTriggerDiscriminator>637</speTriggerDiscriminator>
-        <mpeTriggerDiscriminator>610</mpeTriggerDiscriminator>
+        <mpeTriggerDiscriminator>600</mpeTriggerDiscriminator>
         <internalPulser> 0 </internalPulser>
         <ledBrightness> 1023 </ledBrightness>
         <frontEndAmpLowerClamp> 0 </frontEndAmpLowerClamp>
@@ -709,7 +709,7 @@
         <frontEndPedestal> 2130 </frontEndPedestal>
         <fastAdcRef> 800 </fastAdcRef>
         <speTriggerDiscriminator>620</speTriggerDiscriminator>
-        <mpeTriggerDiscriminator>610</mpeTriggerDiscriminator>
+        <mpeTriggerDiscriminator>600</mpeTriggerDiscriminator>
         <internalPulser> 0 </internalPulser>
         <ledBrightness> 1023 </ledBrightness>
         <frontEndAmpLowerClamp> 0 </frontEndAmpLowerClamp>
@@ -731,7 +731,7 @@
         <pedestalSubtract> true </pedestalSubtract>
         <chargeStamp type="atwd"/>
         <localCoincidence>
-            <type> off </type>
+            <type> off  </type>
             <mode> none </mode>
             <txMode> none </txMode>
             <source> spe </source>
@@ -749,7 +749,7 @@
         </supernovaMode>
         <scalerDeadtime> 51200 </scalerDeadtime>
     </domConfig>
-       <domConfig mbid="061596a8844d" name="Mount_Makalu">
+    <domConfig mbid="061596a8844d" name="Mount_Makalu">
         <format> <deltaCompressed/> </format>
         <triggerMode> mpe </triggerMode>
         <atwd0TriggerBias>807</atwd0TriggerBias>
