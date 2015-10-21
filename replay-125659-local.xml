@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     ReplayHub configuration using hitspool files on local disk
+     Original files are in the Data Warehouse at
+     /data/exp/IceCube/2014/internal-system/RawData/125659
+-->
+<runConfig>
+    <replayFiles dir="/mnt/data/pdaq/testdata/hitspool/125659">
+        <data hub="1" host="daq09"/>
+        <data hub="2" host="daq02"/>
+        <data hub="3" host="daq08"/>
+        <data hub="4" host="daq09"/>
+        <data hub="5" host="daq06"/>
+        <data hub="6" host="daq07"/>
+        <data hub="7" host="daq07"/>
+        <data hub="8" host="daq07"/>
+        <data hub="9" host="daq04"/>
+        <data hub="10" host="daq08"/>
+        <data hub="11" host="daq03"/>
+        <data hub="12" host="daq07"/>
+        <data hub="13" host="daq06"/>
+        <data hub="14" host="daq09"/>
+        <data hub="15" host="daq07"/>
+        <data hub="16" host="daq03"/>
+        <data hub="17" host="daq05"/>
+        <data hub="18" host="daq08"/>
+        <data hub="19" host="daq04"/>
+        <data hub="20" host="daq04"/>
+        <data hub="21" host="daq04"/>
+        <data hub="22" host="daq01"/>
+        <data hub="23" host="daq05"/>
+        <data hub="24" host="daq03"/>
+        <data hub="25" host="daq09"/>
+        <data hub="26" host="daq09"/>
+        <data hub="27" host="daq08"/>
+        <data hub="28" host="daq07"/>
+        <data hub="29" host="daq09"/>
+        <data hub="30" host="daq08"/>
+        <data hub="31" host="daq03"/>
+        <data hub="32" host="daq08"/>
+        <data hub="33" host="daq07"/>
+        <data hub="34" host="daq09"/>
+        <data hub="35" host="daq02"/>
+        <data hub="36" host="daq09"/>
+        <data hub="37" host="daq05"/>
+        <data hub="38" host="daq03"/>
+        <data hub="39" host="daq03"/>
+        <data hub="40" host="daq05"/>
+        <data hub="41" host="daq05"/>
+        <data hub="42" host="daq06"/>
+        <data hub="43" host="daq05"/>
+        <data hub="44" host="daq09"/>
+        <data hub="45" host="daq05"/>
+        <data hub="46" host="daq03"/>
+        <data hub="47" host="daq04"/>
+        <data hub="48" host="daq04"/>
+        <data hub="49" host="daq05"/>
+        <data hub="50" host="daq04"/>
+        <data hub="51" host="daq09"/>
+        <data hub="52" host="daq06"/>
+        <data hub="53" host="daq09"/>
+        <data hub="54" host="daq07"/>
+        <data hub="55" host="daq07"/>
+        <data hub="56" host="daq06"/>
+        <data hub="57" host="daq03"/>
+        <data hub="58" host="daq06"/>
+        <data hub="59" host="daq02"/>
+        <data hub="60" host="daq06"/>
+        <!-- there is no data for ichub61 -->
+        <data hub="62" host="daq08"/>
+        <data hub="63" host="daq02"/>
+        <data hub="64" host="daq02"/>
+        <data hub="65" host="daq02"/>
+        <data hub="66" host="daq02"/>
+        <data hub="67" host="daq04"/>
+        <data hub="68" host="daq02"/>
+        <data hub="69" host="daq06"/>
+        <data hub="70" host="daq03"/>
+        <data hub="71" host="daq06"/>
+        <data hub="72" host="daq05"/>
+        <data hub="73" host="daq08"/>
+        <data hub="74" host="daq05"/>
+        <data hub="75" host="daq03"/>
+        <data hub="76" host="daq04"/>
+        <data hub="77" host="daq02"/>
+        <data hub="78" host="daq08"/>
+        <data hub="79" host="daq03"/>
+        <data hub="80" host="daq01"/>
+        <data hub="81" host="daq06"/>
+        <data hub="82" host="daq02"/>
+        <data hub="83" host="daq05"/>
+        <data hub="84" host="daq07"/>
+        <data hub="85" host="daq04"/>
+        <data hub="86" host="daq08"/>
+        <data hub="201" host="daq08"/>
+        <!-- there is no data for ithub02 -->
+        <data hub="203" host="daq07"/>
+        <data hub="204" host="daq08"/>
+        <data hub="205" host="daq04"/>
+        <data hub="206" host="daq09"/>
+        <data hub="207" host="daq06"/>
+        <data hub="208" host="daq05"/>
+        <data hub="209" host="daq07"/>
+        <data hub="210" host="daq06"/>
+        <data hub="211" host="daq02"/>
+    </replayFiles>
+    <triggerConfig>sps-2013-no-physminbias-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="secondaryBuilders"/>
+    <runComponent name="eventBuilder"/>
+</runConfig>
