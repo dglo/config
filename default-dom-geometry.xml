@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Geometry for scintillators is included under string-positions
+   12-65, 12-66, 62-65, 62-66 under string number 208
+   
+   Geometry for IceACT is included under string-position
+   00-01 under string number 208, current name 'LAB00001'
+   
+   Changed the channelID to 0 for IacACT
+   
+   Changed the SCINT x,y,z positions
+   
+   - M. Kauer  26 Jan 2016
+-->
 <domGeometry>
   <string>
     <number>0</number>
@@ -54270,6 +54283,61 @@
   </string>
   <string>
     <number>208</number>
+    <dom>
+      <originalString>0</originalString>
+      <position>1</position>
+      <channelId>0</channelId>
+      <mainBoardId>f316d197344f</mainBoardId>
+      <name>Reliant_Robin</name>
+      <productionId>LAB00001</productionId>
+      <xCoordinate>0.0</xCoordinate>
+      <yCoordinate>0.0</yCoordinate>
+      <zCoordinate>1955.0</zCoordinate>
+    </dom>
+    <dom>
+      <originalString>12</originalString>
+      <position>65</position>
+      <channelId>6022</channelId>
+      <mainBoardId>0f8bea7ac17e</mainBoardId>
+      <name>Pizza_Margherita</name>
+      <productionId>SCIN0001</productionId>
+      <xCoordinate>279.23</xCoordinate>
+      <yCoordinate>-300.53</yCoordinate>
+      <zCoordinate>1946.2</zCoordinate>
+    </dom>
+    <dom>
+      <originalString>12</originalString>
+      <position>66</position>
+      <channelId>6023</channelId>
+      <mainBoardId>29a2ab1e6a93</mainBoardId>
+      <name>Banana_Pancake</name>
+      <productionId>SCIN0003</productionId>
+      <xCoordinate>294.76</xCoordinate>
+      <yCoordinate>-302.04</yCoordinate>
+      <zCoordinate>1946.2</zCoordinate>
+    </dom>
+    <dom>
+      <originalString>62</originalString>
+      <position>65</position>
+      <channelId>6122</channelId>
+      <mainBoardId>76333fb8d615</mainBoardId>
+      <name>Grilled_Cheese</name>
+      <productionId>SCIN0002</productionId>
+      <xCoordinate>-201.74</xCoordinate>
+      <yCoordinate>234.95</yCoordinate>
+      <zCoordinate>1948.1</zCoordinate>
+    </dom>
+    <dom>
+      <originalString>62</originalString>
+      <position>66</position>
+      <channelId>6123</channelId>
+      <mainBoardId>0d654a32652c</mainBoardId>
+      <name>English_Muffin</name>
+      <productionId>SCIN0004</productionId>
+      <xCoordinate>-210.62</xCoordinate>
+      <yCoordinate>239.66</yCoordinate>
+      <zCoordinate>1948.1</zCoordinate>
+    </dom>
     <dom>
       <originalString>19</originalString>
       <position>61</position>
