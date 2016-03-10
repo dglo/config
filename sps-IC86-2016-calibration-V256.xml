@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='ASCII'?>
 <!--
-   Run Config for IC86-2015 use.
-   Trigger settings are based upon IC86-2013 
-   settings.  DOM configurations are based on
-   V246, March 2015 full-detector calibration.
-   DOM message packing enabled (intervals 
-   setting).  IceTop gains *have* been
-   adjusted based on the calibration.
-   - J. Kelley, 23 April 2015
-   
-   Changed trigger config to sps-2013-no-physminbias-scint-003
-   which includes scintillators in the IceTop
-   CalibrationTrigger
-   - D. Tosi, M. Kauer, 7 January 2016
+   Run Config for IC86-2016 calibration harvesting.
+   Trigger settings are still based upon IC86-2013 
+   settings (need updating for run start).
+
+   DOM configurations are based on V256, 
+   March 2016 full-detector calibration.
+   IceTop gains have been adjusted based on the 
+   calibration.
+
+   - J. Kelley, 10 March 2016
 --><runConfig>
   <hitspool>
     <directory>/mnt/data/pdaqlocal</directory>
