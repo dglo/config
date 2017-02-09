@@ -1,0 +1,3003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domConfigList>
+ <domConfig mbid="89a4ffb469cb" name="Lebersee" > 
+ <!-- dom domId='89a4ffb469cb' name='Lebersee' domhub='sps-ichub33' card='0' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2572 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>                down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="6f1e1bc95c64" name="Sascab" > 
+ <!-- dom domId='6f1e1bc95c64' name='Sascab' domhub='sps-ichub33' card='0' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2228 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="6ac715caee62" name="Zeuthener_See" > 
+ <!-- dom domId='6ac715caee62' name='Zeuthener_See' domhub='sps-ichub33' card='0' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2342 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="ae829c9e5b37" name="Acer_Palmatum_Deshoj" > 
+ <!-- dom domId='ae829c9e5b37' name='Acer_Palmatum_Deshoj' domhub='sps-ichub33' card='0' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2248 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="f05081acb470" name="Oxen" > 
+ <!-- dom domId='f05081acb470' name='Oxen' domhub='sps-ichub33' card='0' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2300 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="35115872d047" name="Skorpionen" > 
+ <!-- dom domId='35115872d047' name='Skorpionen' domhub='sps-ichub33' card='0' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2474 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="9a1b6640e1f7" name="Uckleysee" > 
+ <!-- dom domId='9a1b6640e1f7' name='Uckleysee' domhub='sps-ichub33' card='0' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2564 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="84f5786881e3" name="Vargen" > 
+ <!-- dom domId='84f5786881e3' name='Vargen' domhub='sps-ichub33' card='0' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2332 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="36264b0a2900" name="Mint" > 
+ <!-- dom domId='36264b0a2900' name='Mint' domhub='sps-ichub33' card='1' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2306 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="0889d7c19463" name="Ormen" > 
+ <!-- dom domId='0889d7c19463' name='Ormen' domhub='sps-ichub33' card='1' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2376 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="78d13780d12f" name="Triangeln" > 
+ <!-- dom domId='78d13780d12f' name='Triangeln' domhub='sps-ichub33' card='1' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2356 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="02adfe000c5e" name="Lutowsee" > 
+ <!-- dom domId='02adfe000c5e' name='Lutowsee' domhub='sps-ichub33' card='1' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2616 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="f2fdfb211fc5" name="Rokpol" > 
+ <!-- dom domId='f2fdfb211fc5' name='Rokpol' domhub='sps-ichub33' card='1' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2222 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="5889fcbd86ef" name="Pilen" > 
+ <!-- dom domId='5889fcbd86ef' name='Pilen' domhub='sps-ichub33' card='1' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2196 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="1515b2ec034c" name="Fenix" > 
+ <!-- dom domId='1515b2ec034c' name='Fenix' domhub='sps-ichub33' card='1' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2250 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="5740444c6e1d" name="Tannensee" > 
+ <!-- dom domId='5740444c6e1d' name='Tannensee' domhub='sps-ichub33' card='1' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2480 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="e2110d3be815" name="Barre_Gran" > 
+ <!-- dom domId='e2110d3be815' name='Barre_Gran' domhub='sps-ichub33' card='2' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2390 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="da90f92aea93" name="Dila" > 
+ <!-- dom domId='da90f92aea93' name='Dila' domhub='sps-ichub33' card='2' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2324 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="3bc81ef8ccf7" name="Rederangsee" > 
+ <!-- dom domId='3bc81ef8ccf7' name='Rederangsee' domhub='sps-ichub33' card='2' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2370 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="4d14fda0db07" name="Crowdie" > 
+ <!-- dom domId='4d14fda0db07' name='Crowdie' domhub='sps-ichub33' card='2' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2230 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="47e039ea7432" name="Skogsarbetare" > 
+ <!-- dom domId='47e039ea7432' name='Skogsarbetare' domhub='sps-ichub33' card='2' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2238 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="001a68305554" name="Krubba" > 
+ <!-- dom domId='001a68305554' name='Krubba' domhub='sps-ichub33' card='2' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2688 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="ae912b24cddd" name="Teufelssee" > 
+ <!-- dom domId='ae912b24cddd' name='Teufelssee' domhub='sps-ichub33' card='2' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2286 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="5f92c2737269" name="Schampsee" > 
+ <!-- dom domId='5f92c2737269' name='Schampsee' domhub='sps-ichub33' card='2' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2294 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="edbc08e5901b" name="Perfusionist" > 
+ <!-- dom domId='edbc08e5901b' name='Perfusionist' domhub='sps-ichub33' card='3' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2564 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="01b2460d5039" name="Parkeringsvakt" > 
+ <!-- dom domId='01b2460d5039' name='Parkeringsvakt' domhub='sps-ichub33' card='3' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2260 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="c395b0f2e5ed" name="Skytten" > 
+ <!-- dom domId='c395b0f2e5ed' name='Skytten' domhub='sps-ichub33' card='3' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2322 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="efee37d5dfce" name="Kemist" > 
+ <!-- dom domId='efee37d5dfce' name='Kemist' domhub='sps-ichub33' card='3' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2496 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="ec8842300a3f" name="Knodd" > 
+ <!-- dom domId='ec8842300a3f' name='Knodd' domhub='sps-ichub33' card='3' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2650 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="265b34fe9ce1" name="Kilcummin" > 
+ <!-- dom domId='265b34fe9ce1' name='Kilcummin' domhub='sps-ichub33' card='3' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2432 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="fd22001c13ec" name="Glammsee" > 
+ <!-- dom domId='fd22001c13ec' name='Glammsee' domhub='sps-ichub33' card='3' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2230 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="238de71b398b" name="Geitost" > 
+ <!-- dom domId='238de71b398b' name='Geitost' domhub='sps-ichub33' card='3' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2318 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="e7f4ae6d7b39" name="Da_Fang" > 
+ <!-- dom domId='e7f4ae6d7b39' name='Da_Fang' domhub='sps-ichub33' card='4' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2494 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="fcc82868b878" name="Maxsee" > 
+ <!-- dom domId='fcc82868b878' name='Maxsee' domhub='sps-ichub33' card='4' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2238 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="0a07cc4845d1" name="Acrimsat" > 
+ <!-- dom domId='0a07cc4845d1' name='Acrimsat' domhub='sps-ichub33' card='4' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2352 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="a04ddd23fd96" name="Matcha" > 
+ <!-- dom domId='a04ddd23fd96' name='Matcha' domhub='sps-ichub33' card='4' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2308 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="b15343ddcbe2" name="Kalksee" > 
+ <!-- dom domId='b15343ddcbe2' name='Kalksee' domhub='sps-ichub33' card='4' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2374 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="b659efb542d8" name="Brummelviz" > 
+ <!-- dom domId='b659efb542d8' name='Brummelviz' domhub='sps-ichub33' card='4' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2350 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="f6a12ebe671f" name="Orsted" > 
+ <!-- dom domId='f6a12ebe671f' name='Orsted' domhub='sps-ichub33' card='4' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2330 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="a98f1439ae8c" name="Amosite" > 
+ <!-- dom domId='a98f1439ae8c' name='Amosite' domhub='sps-ichub33' card='4' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2314 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="194a40b01938" name="Wire" > 
+ <!-- dom domId='194a40b01938' name='Wire' domhub='sps-ichub33' card='5' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2322 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="fc83464b4276" name="Gohlitzsee" > 
+ <!-- dom domId='fc83464b4276' name='Gohlitzsee' domhub='sps-ichub33' card='5' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2246 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="8e0d751087b9" name="Demeter" > 
+ <!-- dom domId='8e0d751087b9' name='Demeter' domhub='sps-ichub33' card='5' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2392 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="564998b79f0c" name="Mueritz" > 
+ <!-- dom domId='564998b79f0c' name='Mueritz' domhub='sps-ichub33' card='5' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2316 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="6681aea10386" name="Chamaecyparis_Pisife" > 
+ <!-- dom domId='6681aea10386' name='Chamaecyparis_Pisife' domhub='sps-ichub33' card='5' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2260 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="0e7530f07696" name="Juniperus_Formosa" > 
+ <!-- dom domId='0e7530f07696' name='Juniperus_Formosa' domhub='sps-ichub33' card='5' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2408 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="719f8c186e1a" name="Ficus_Panda" > 
+ <!-- dom domId='719f8c186e1a' name='Ficus_Panda' domhub='sps-ichub33' card='5' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2302 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="c101b1a17d91" name="Dr_Oxs_Experiment" > 
+ <!-- dom domId='c101b1a17d91' name='Dr_Oxs_Experiment' domhub='sps-ichub33' card='5' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2312 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="384528b6e8fd" name="Balzsee" > 
+ <!-- dom domId='384528b6e8fd' name='Balzsee' domhub='sps-ichub33' card='6' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2514 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="f34646442428" name="Carpinus_Turczaninow" > 
+ <!-- dom domId='f34646442428' name='Carpinus_Turczaninow' domhub='sps-ichub33' card='6' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2402 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="335995f6a664" name="Yu_Lu" > 
+ <!-- dom domId='335995f6a664' name='Yu_Lu' domhub='sps-ichub33' card='6' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2552 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="282999640262" name="Sugilite" > 
+ <!-- dom domId='282999640262' name='Sugilite' domhub='sps-ichub33' card='6' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2302 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="92eb64c07455" name="Catnip" > 
+ <!-- dom domId='92eb64c07455' name='Catnip' domhub='sps-ichub33' card='6' pair='2' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2288 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="748f07dda3d2" name="Lotus_Flower" > 
+ <!-- dom domId='748f07dda3d2' name='Lotus_Flower' domhub='sps-ichub33' card='6' pair='2' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2448 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="560b29bf4261" name="Hoelite" > 
+ <!-- dom domId='560b29bf4261' name='Hoelite' domhub='sps-ichub33' card='6' pair='3' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2222 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="95f873d141af" name="Chaoite" > 
+ <!-- dom domId='95f873d141af' name='Chaoite' domhub='sps-ichub33' card='6' pair='3' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2474 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="359236af3d53" name="Callicarpa_Giraldia" > 
+ <!-- dom domId='359236af3d53' name='Callicarpa_Giraldia' domhub='sps-ichub33' card='7' pair='0' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2474 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="e2523d22ad8d" name="Kukicha" > 
+ <!-- dom domId='e2523d22ad8d' name='Kukicha' domhub='sps-ichub33' card='7' pair='0' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2340 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="16c10486b2a3" name="Cafetite" > 
+ <!-- dom domId='16c10486b2a3' name='Cafetite' domhub='sps-ichub33' card='7' pair='1' ab='B' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2578 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>          up-or-down </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  550 </cableLength>
+         <cableLength dir="up"   dist="1">  725 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 1950 </cableLength>
+         <cableLength dir="up"   dist="3"> 2125 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+ <domConfig mbid="1a8eeef5d86c" name="Duffel_Bag" > 
+ <!-- dom domId='1a8eeef5d86c' name='Duffel_Bag' domhub='sps-ichub33' card='7' pair='1' ab='A' --> 
+     <format>
+         <deltaCompressed/>
+     </format>
+     <triggerMode>              spe </triggerMode>
+     <atwd0TriggerBias>         850 </atwd0TriggerBias>
+     <atwd1TriggerBias>         850 </atwd1TriggerBias>
+     <atwd0RampRate>            350 </atwd0RampRate>
+     <atwd1RampRate>            350 </atwd1RampRate>
+     <atwd0RampTop>            2300 </atwd0RampTop>
+     <atwd1RampTop>            2300 </atwd1RampTop>
+     <atwdAnalogRef>           2250 </atwdAnalogRef>
+     <frontEndPedestal>        2130 </frontEndPedestal>
+     <fastAdcRef>               800 </fastAdcRef>
+     <speTriggerDiscriminator>  565 </speTriggerDiscriminator>
+     <mpeTriggerDiscriminator>  611 </mpeTriggerDiscriminator>
+     <internalPulser>             0 </internalPulser>
+     <ledBrightness>           1023 </ledBrightness>
+     <frontEndAmpLowerClamp>      0 </frontEndAmpLowerClamp>
+     <flasherRef>               450 </flasherRef>
+     <muxBias>                  500 </muxBias>
+     <pmtHighVoltage>          2368 </pmtHighVoltage>
+     <analogMux>                off </analogMux>
+     <pulserMode>            beacon </pulserMode>
+     <pulserRate>                 1 </pulserRate>
+     <pedestalSubtract>        true </pedestalSubtract>
+     <localCoincidence>
+         <type>                soft </type>
+         <mode>                  up </mode>
+         <txMode>              both </txMode>
+         <source>               spe </source>
+         <span>                   2 </span>
+         <preTrigger>          1000 </preTrigger>
+         <postTrigger>         1000 </postTrigger>
+         <cableLength dir="down" dist="1">  725 </cableLength>
+         <cableLength dir="up"   dist="1">  550 </cableLength>
+         <cableLength dir="down" dist="2"> 1325 </cableLength>
+         <cableLength dir="up"   dist="2"> 1325 </cableLength>
+         <cableLength dir="down" dist="3"> 2125 </cableLength>
+         <cableLength dir="up"   dist="3"> 1950 </cableLength>
+         <cableLength dir="down" dist="4"> 2725 </cableLength>
+         <cableLength dir="up"   dist="4"> 2725 </cableLength>
+     </localCoincidence>
+     <supernovaMode enabled="true">
+         <deadtime>       250000 </deadtime>
+         <disc>              spe </disc>
+     </supernovaMode>
+     <scalerDeadtime>      51200 </scalerDeadtime>
+ </domConfig>
+</domConfigList>

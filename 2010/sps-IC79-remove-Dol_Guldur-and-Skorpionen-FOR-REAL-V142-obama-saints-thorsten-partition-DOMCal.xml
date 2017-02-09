@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Run Config for IC79 use.  DOM configs are
+     based on the swap-William-Parry config.
+     Triggers are IC79 triggers -
+     - Physics MBT
+     - InIce SMT
+     - DeepCore SMT
+     - Cluster 
+     - IceTop SMT
+     - IceTop MinBias
+     - IceTop Calibration
+-->
+<runConfig>
+    <domConfigList>sps-02i-slc-130</domConfigList>
+    <domConfigList>sps-03i-slc-130</domConfigList>
+    <domConfigList>sps-04i-slc-130</domConfigList>
+<!--    <domConfigList>sps-05i-slc-130</domConfigList> -->
+<!--    <domConfigList>sps-06i-slc-130</domConfigList> -->
+    <domConfigList>sps-08i-slc-130</domConfigList>
+    <domConfigList>sps-09i-slc-130</domConfigList>
+    <domConfigList>sps-10i-slc-130</domConfigList>
+    <domConfigList>sps-11i-slc-130</domConfigList>
+    <domConfigList>sps-12i-slc-130</domConfigList>
+    <domConfigList>sps-13i-slc-130</domConfigList>
+    <domConfigList>sps-15i-slc-130</domConfigList>
+    <domConfigList>sps-16i-slc-130</domConfigList>
+    <domConfigList>sps-17i-slc-130</domConfigList>
+    <domConfigList>sps-18i-slc-130</domConfigList>
+    <domConfigList>sps-19i-slc-130</domConfigList>
+    <domConfigList>sps-20i-slc-130</domConfigList>
+    <domConfigList>sps-23i-slc-130</domConfigList>
+    <domConfigList>sps-24i-slc-130</domConfigList>
+    <domConfigList>sps-25i-slc-130</domConfigList>
+    <domConfigList>sps-26i-slc-130</domConfigList>
+    <domConfigList>sps-27i-slc-130</domConfigList>
+    <domConfigList>sps-28i-slc-130</domConfigList>
+    <domConfigList>sps-32i-slc-130</domConfigList>
+    <domConfigList>sps-33i-slc-141</domConfigList>
+    <domConfigList>sps-34i-slc-130</domConfigList>
+    <domConfigList>sps-35i-slc-130</domConfigList>
+    <domConfigList>sps-36i-slc-130</domConfigList>
+    <domConfigList>sps-37i-slc-130</domConfigList>
+    <domConfigList>sps-41i-slc-130</domConfigList>
+    <domConfigList>sps-42i-slc-130</domConfigList>
+    <domConfigList>sps-43i-slc-130</domConfigList>
+    <domConfigList>sps-51i-slc-130</domConfigList>
+    <domConfigList>sps-81i-slc-130</domConfigList>
+    <domConfigList>sps-82i-slc-130</domConfigList>
+    <domConfigList>sps-83i-slc-130</domConfigList>
+    <domConfigList>sps-84i-slc-130</domConfigList>
+    <domConfigList>sps-85i-slc-130</domConfigList>
+    <domConfigList>sps-86i-slc-130</domConfigList>
+    <domConfigList>sps-04t-slc-130</domConfigList>
+    <domConfigList>sps-07t-slc-133</domConfigList>
+    <domConfigList>sps-08t-slc-130</domConfigList>
+    <domConfigList>sps-09t-slc-130</domConfigList>
+    <domConfigList>sps-10t-slc-130</domConfigList>
+    <triggerConfig>sps-ic79-042</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

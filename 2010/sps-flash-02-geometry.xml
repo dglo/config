@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<runConfig>
+    <domConfigList hub="2">sps-02i-slc-096</domConfigList>
+    <domConfigList hub="3">sps-03i-slc-096</domConfigList>
+    <domConfigList hub="8">sps-08i-slc-120</domConfigList>
+    <domConfigList hub="9">sps-09i-slc-120</domConfigList>
+    <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

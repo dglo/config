@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     run config for flasher-run. This is the main partition for IC72 - the 23 strings in the parallel partition
+-->
+<runConfig>
+    <domConfigList hub="3">sps-03i-slc-096</domConfigList>
+    <domConfigList hub="8">sps-08i-slc-120</domConfigList>
+    <domConfigList hub="9">sps-09i-slc-120</domConfigList>
+    <domConfigList hub="10">sps-10i-slc-096</domConfigList>
+    <triggerConfig>sps-icecube-019-minbias-cal</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

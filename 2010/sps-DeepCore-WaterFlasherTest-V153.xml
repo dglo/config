@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    In-water flasher test run of dec 16th (??) 2010.  Uses
+    just deepcore strings and calibration triggers.
+-->
+<runConfig>
+    <domConfigList hub="26">sps-26i-slc-130</domConfigList>
+    <domConfigList hub="27">sps-27i-slc-130</domConfigList>
+    <domConfigList hub="35">sps-35i-slc-130</domConfigList>
+    <domConfigList hub="36">sps-36i-slc-130</domConfigList>
+    <domConfigList hub="37">sps-37i-slc-130</domConfigList>
+    <domConfigList hub="45">sps-45i-slc-141</domConfigList>
+    <domConfigList hub="46">sps-46i-slc-130</domConfigList>
+    <domConfigList hub="79">sps-79i-slc-153</domConfigList>
+    <domConfigList hub="81">sps-81i-slc-130</domConfigList>
+    <domConfigList hub="82">sps-82i-slc-130</domConfigList>
+    <domConfigList hub="83">sps-83i-slc-130</domConfigList>
+    <domConfigList hub="84">sps-84i-slc-130</domConfigList>
+    <domConfigList hub="85">sps-85i-slc-130</domConfigList>
+    <domConfigList hub="86">sps-86i-slc-130</domConfigList>
+    <triggerConfig>sps-icecube-019-cal-only</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
