@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Run config for SPS - InIce / IceTop and AMANDA h/w + s/w triggers
+This run is 1.0E+07 gain nominal for in-ice PMTs.  The change from
+V012 is migration to the sps-icecube-amanda-008 trigger file which
+has the PhysicsMinBias trigger.
+-->
+<runConfig>
+    <domConfigList hub="44">sps-44i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="45">sps-45i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="52">sps-52i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="53">sps-53i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="54">sps-54i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="55">sps-55i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="60">sps-60i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="61">sps-61i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="62">sps-62i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="64">sps-64i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="68">sps-68i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="69">sps-69i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="70">sps-70i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="71">sps-71i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="75">sps-75i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="76">sps-76i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="77">sps-77i-lc2-pedsub-042</domConfigList>
+    <domConfigList hub="205">sps-05t-lc2-pedsub-043</domConfigList>
+    <domConfigList hub="206">sps-06t-lc2-pedsub-043</domConfigList>
+    <domConfigList hub="0">sps-amanda-005</domConfigList>
+    <triggerConfig>sps-icecube-amanda-015</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="iceTopTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="amandaTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
