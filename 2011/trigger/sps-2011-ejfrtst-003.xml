@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    Trigger file for IC86 SlowMPTrigger domset 6 test based on sps-2011-01
+-->
+
+<activeTriggers configurationId="1106">
+
+<!--
+    GlobalTrigger
+-->
+
+    <triggerConfig triggerId="8">
+        <triggerType>3</triggerType>
+        <triggerConfigId>-1</triggerConfigId>
+        <sourceId>6000</sourceId>
+        <triggerName>ThroughputTrigger</triggerName>
+    </triggerConfig>
+
+<!--
+    InIce: DomSet==All
+-->
+
+    <triggerConfig triggerId="111">
+        <triggerType>13</triggerType>
+        <triggerConfigId>106</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>PhysicsMinBiasTrigger</triggerName>
+        <parameterConfig paramId="102">
+            <parameterName>deadtime</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="103">
+            <parameterName>prescale</parameterName>
+            <parameterValue>200</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="801">
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+        <readoutConfig readoutId="803">
+            <readoutType>2</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>4000</timeMinus>
+            <timePlus>6000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2006">
+        <triggerType>0</triggerType>
+        <triggerConfigId>1006</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="2">
+            <parameterName>threshold</parameterName>
+            <parameterValue>8</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="801">
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+        <readoutConfig readoutId="803">
+            <readoutType>2</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>4000</timeMinus>
+            <timePlus>6000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig>
+        <triggerType>22</triggerType>
+        <triggerConfigId>22022</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SlowMPTrigger</triggerName>
+        <parameterConfig>
+            <parameterName>t_proximity</parameterName>
+            <parameterValue>10000</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>t_min</parameterName>
+            <parameterValue>0</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>t_max</parameterName>
+            <parameterValue>13000000</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>alpha_min</parameterName>
+            <parameterValue>130</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>dc_algo</parameterName>
+            <parameterValue>false</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>rel_v</parameterName>
+            <parameterValue>0.65</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>min_n_tuples</parameterName>
+            <parameterValue>50</parameterValue>
+        </parameterConfig>
+        <parameterConfig>
+            <parameterName>max_event_length</parameterName>
+            <parameterValue>15000000</parameterValue>
+        </parameterConfig>
+        <readoutConfig >
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+<!--
+    InIce: DomSet==InIce
+-->
+
+    <triggerConfig triggerId="2015">
+        <triggerType>21</triggerType>
+        <triggerConfigId>21001</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>CylinderTrigger</triggerName>
+        <parameterConfig paramId="1900101">
+            <parameterName>multiplicity</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="1900102">
+            <parameterName>simpleMultiplicity</parameterName>
+            <parameterValue>8</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="1900103">
+            <parameterName>radius</parameterName>
+            <parameterValue>175</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="1900104">
+            <parameterName>height</parameterName>
+            <parameterValue>75</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="1900105">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1000</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="1900106">
+            <parameterName>domSet</parameterName>
+            <parameterValue>2</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="801">
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+        <readoutConfig readoutId="803">
+            <readoutType>2</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>4000</timeMinus>
+            <timePlus>6000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2007">
+        <triggerType>14</triggerType>
+        <triggerConfigId>1007</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>ClusterTrigger</triggerName>
+        <parameterConfig paramId="115001">
+            <parameterName>multiplicity</parameterName>
+            <parameterValue>5</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="115002">
+            <parameterName>coherenceLength</parameterName>
+            <parameterValue>7</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="115003">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>1500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116007">
+            <parameterName>domSet</parameterName>
+            <parameterValue>2</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="801">
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+        <readoutConfig readoutId="803">
+            <readoutType>2</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>4000</timeMinus>
+            <timePlus>6000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+<!--
+    InIce: DomSet==DeepCore
+-->
+
+    <triggerConfig triggerId="2016">
+        <triggerType>0</triggerType>
+        <triggerConfigId>1011</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="116008">
+            <parameterName>threshold</parameterName>
+            <parameterValue>3</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116010">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>2500</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="116009">
+            <parameterName>domSet</parameterName>
+            <parameterValue>6</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="801">
+            <readoutType>1</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+        <readoutConfig readoutId="804">
+            <readoutType>2</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>6000</timeMinus>
+            <timePlus>6000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+<!--
+    IceTop
+-->
+
+    <triggerConfig triggerId="102">
+        <triggerType>0</triggerType>
+        <triggerConfigId>102</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>SimpleMajorityTrigger</triggerName>
+        <parameterConfig paramId="5">
+            <parameterName>threshold</parameterName>
+            <parameterValue>6</parameterValue>
+        </parameterConfig>
+        <parameterConfig paramId="6">
+            <parameterName>timeWindow</parameterName>
+            <parameterValue>5000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="2009">
+        <triggerType>1</triggerType>
+        <triggerConfigId>1009</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>CalibrationTrigger</triggerName>
+        <parameterConfig paramId="119">
+            <parameterName>hitType</parameterName>
+            <parameterValue>4</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="103">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>1000</timeMinus>
+            <timePlus>1000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig triggerId="101">
+        <triggerType>2</triggerType>
+        <triggerConfigId>101</triggerConfigId>
+        <sourceId>5000</sourceId>
+        <triggerName>MinBiasTrigger</triggerName>
+        <parameterConfig paramId="101">
+            <parameterName>prescale</parameterName>
+            <parameterValue>10000</parameterValue>
+        </parameterConfig>
+        <readoutConfig readoutId="102">
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>10000</timeMinus>
+            <timePlus>10000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+    <triggerConfig>
+        <triggerType>23</triggerType>
+        <triggerConfigId>23001</triggerConfigId>
+        <sourceId>4000</sourceId>
+        <triggerName>FixedRateTrigger</triggerName>
+        <parameterConfig>
+            <parameterName>interval</parameterName>
+            <parameterValue>100000000</parameterValue>
+        </parameterConfig>
+        <readoutConfig>
+            <readoutType>0</readoutType>
+            <timeOffset>0</timeOffset>
+            <timeMinus>500000</timeMinus>
+            <timePlus>500000</timePlus>
+        </readoutConfig>
+    </triggerConfig>
+
+</activeTriggers>
