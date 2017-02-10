@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Run config for SPS - parallel partition for strings 16 and 33
+-->
+<runConfig>
+    <domConfigList hub="16">sps-16i-slc-120</domConfigList>
+    <triggerConfig>sps-IC59-030</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

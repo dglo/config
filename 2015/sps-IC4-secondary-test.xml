@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Run Config for IC4 split test run  use.  DOM configs are
+     based on the V171 release.
+     Triggers are IC86 triggers -
+-->
+<runConfig>
+    <domConfigList hub="75">sps-75i-slc-174</domConfigList>
+    <domConfigList hub="76">sps-76i-slc-174</domConfigList>
+    <domConfigList hub="77">sps-77i-slc-174</domConfigList>
+    <domConfigList hub="78">sps-78i-slc-174</domConfigList>
+    <triggerConfig>sps-2011-slowmp-ds6</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Delta compressed data from real DOMs in freezer on SPTS64
+Note that this file uses a special NON-PRODUCTION trigger
+configuration file so should not be used for PRODUCTION testing!
+-->
+<runConfig>
+    <domConfigList hub="2029">spts64-ichub21-lc-004</domConfigList>
+    <domConfigList hub="2021">spts64-ichub29-lc-004</domConfigList>
+    <triggerConfig>ct-mbt10-smt4-001</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>

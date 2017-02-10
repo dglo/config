@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run config for SPTS64 testing with real DOMs. -->
+<runConfig>
+    <domConfigList hub="2029">spts64-lc</domConfigList>
+    <triggerConfig>spts64-test</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+</runConfig>

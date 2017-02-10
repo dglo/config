@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Run config for SPS - parallel partition for strings 8,15,23
+-->
+<runConfig>
+    <domConfigList hub="8">sps-08i-slc-120-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="15">sps-15i-slc-120-lc2-pedsub-055</domConfigList>
+    <domConfigList hub="23">sps-23i-slc-120-lc2-pedsub-055</domConfigList>
+    <triggerConfig>sps-no-ulee-037</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
