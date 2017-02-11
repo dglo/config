@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Run config for SPS - InIce triggers
+flasher run config
+-->
+<runConfig>
+    <domConfigList hub="20">sps-20i-lc2-pedsub-055</domConfigList>
+    <triggerConfig>sps-icecube-018-minbias</triggerConfig>
+    <runComponent name="inIceTrigger"/>
+    <runComponent name="globalTrigger"/>
+    <runComponent name="eventBuilder"/>
+    <runComponent name="secondaryBuilders"/>
+</runConfig>
