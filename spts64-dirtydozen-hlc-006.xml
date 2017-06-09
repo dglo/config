@@ -6,8 +6,8 @@
     K. Hanson (2007/12/10)
 -->
 <runConfig>
-    <domConfigList hub="2021">spts64-ichub21-hlc-006</domConfigList>
-    <domConfigList hub="2029">spts64-ichub29-hlc-006</domConfigList>
+    <stringHub hubId="2021" domConfig="spts64-ichub21-hlc-006"/>
+    <stringHub hubId="2029" domConfig="spts64-ichub29-hlc-006"/>
     <triggerConfig>spts64-test-002</triggerConfig>
     <runComponent name="inIceTrigger"/>
     <runComponent name="globalTrigger"/>
