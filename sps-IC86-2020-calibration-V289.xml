@@ -1,19 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
 <!--
-    Run Config for IC86-2019.
-
-    Based on V281 with updated calibration values. 
-     - DOM 30-60 Rowan added into configuration.
-     - IceAct SMT1 trigger REMOVED.
-     - Flary DOM 80-47 Vikare hand-tweaked (noisy).
-     - 00-01 Reliant_Robin trigger mainboard added.
-     - Increase scint Grilled_Cheese threshold
-
-     J. Kelley, 20 June 2019
-
-     00-01 Reliant_Robin removed
-     M. Kauer, 29 Jan 2020
---><runConfig>
+    Run Config for IC86-2020
+    Based on V287 with updated calibration values. 
+     J. Kelley, 18 March 2020
+-->
+<runConfig>
   <stringHub hubId="1" domConfig="sps-01i-slc-pedsub-289"/>
   <stringHub hubId="2" domConfig="sps-02i-slc-pedsub-289"/>
   <stringHub hubId="3" domConfig="sps-03i-slc-pedsub-289"/>
